@@ -82,14 +82,14 @@ display: flex;
     font-size: 17px;
     color: rgb(218, 213, 213);
     font-family: arial;
-    height: 40px;
+    height: 35px;
 }
 
 .first_img h1{
 
     font-family: arial;
   color: rgb(218, 213, 213);
-  font-size: 22px;
+  font-size: 23px;
   font-weight: 100;
   height: 45px;
 }
@@ -126,7 +126,7 @@ display: flex;
 
 .section1{
 
-    width: 25%;
+    width: 45%;
     height: 15vh;
     /* background-color: red; */
     margin-top: 37%;
@@ -138,14 +138,14 @@ display: flex;
     font-size: 17px;
     color: rgb(218, 213, 213);
     font-family: arial;
-    height: 40px;
+    height: 35px;
 }
 
 .second_img h1{
 
     font-family: arial;
   color: rgb(218, 213, 213);
-  font-size: 22px;
+  font-size: 23px;
   font-weight: 100;
   height: 45px;
 }
@@ -160,4 +160,114 @@ display: flex;
    
 }
 
+/* second */
 
+.second_section{
+
+    width: 100%;
+    height: 70vh;
+    background-color: red;
+}
+
+.second_h1{
+
+    width: 20%;
+    height: 60px;
+    /* background-color: blue; */
+    margin-left: 5%;
+    margin-top: 100px;
+
+}
+
+.second_section h1{
+
+font-size: 27px;
+font-family: arial;
+font-weight: 500;
+
+}
+
+.pic1{
+
+    width: 90%;
+    height: 50vh;
+    /* background-color: blue; */
+    display: flex;
+    margin-left: 5%;
+    gap: 15px;
+}
+
+.time{
+
+    width: 32%;
+    height: 50vh;
+}
+
+.img1{
+
+    width: 100%;
+    height: 50vh;
+    background-image: url(./images/nike-kids.avif);
+    background-size: cover;
+}
+
+.time p{
+
+    font-size: 20px;
+    font-family: arial;
+    padding-top: 20px;
+
+}
+
+.img2{
+
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(9, 244, 244, 0.925);
+}
+
+.img2 img{
+
+    width: 70%;
+    height: 45vh;
+    padding-top: 20px;
+    padding-left: 35px;
+}
+
+
+.img3{
+
+    width: 100%;
+    height: 50vh;
+    background-image: url(./images/nike-and-lego®-partnership.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* third */
+
+
+.third_section{
+
+    width: 100%;
+    height: 60vh;
+    /* background-color: blue; */
+}
+
+.third_h1{
+
+      width: 20%;
+    height: 60px;
+    /* background-color: green; */
+    margin-left: 4%;
+    margin-top: 40px;
+}
+
+.third_h1 h1{
+
+font-size: 27px;
+font-family: arial;
+font-weight: 500;
+
+}
