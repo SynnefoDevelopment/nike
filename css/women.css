@@ -40,19 +40,19 @@
     text-decoration: underline;
     text-align: center;
     font-weight: bold;
-}
+}                                      
 .nav4{
-    width: 1005;
+    width: 100%;
     height: 17vh;
-     background-color: blueviolet; 
+      /* background-color: blueviolet;   */
     display: flex;
-    position: fixed;
+    position: sticky;
     z-index: 3;
 }
 .women{
     width: 15%;
     height: 17vh;
-     background-color: brown; 
+     /* background-color: brown;  */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,7 +63,7 @@
 .subwomen{
     width: 85%;
     height: 17vh;
-     background-color: gold; 
+     /* background-color: gold;  */
     display: flex;
     padding-left: 350px;
     align-items: center;
@@ -73,7 +73,7 @@
 
 }
 
-.Shoes:hover{
+ .Shoes:hover{
     color: grey;
 }
 .Clothing:hover{
@@ -84,4 +84,136 @@
 }
 .Sports:hover{
     color: gray;
+} 
+.first{
+    width: 100%;
+    height: 100vh;
+     background-image: url(./women-s-shoes-clothing-accessories.avif); 
+    background-size: cover;
+    background-color: red;
+}
+.second{
+    width: 100%;
+    height: 38vh;
+    /* background-color: red; */
+    
+}
+.second h1{
+    padding-top: 6vh;
+    padding-left: 35%;
+    font-size: 55px;
+    font-weight: 900;
+
+}
+.second p{
+    padding-left: 33%;
+}
+.second button{
+    width: 65px;
+    height: 35px;
+    margin-left: 48%;
+    border-radius: 16px;
+    border: 1px solid black;
+    margin-top: 4vh;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+.second button:hover{
+    width: 65px;
+    height: 35px;
+    margin-left: 48%;
+    border-radius: 16px;
+    border: 1px solid black;
+    margin-top: 4vh;
+    background-color: black;
+    color: white;
+    background-color: gray;
+    border: 1px solid gray;
+}
+
+.third{
+    width: 100%;
+    height: 100vh;
+    background-color: green;
+}
+.subthird{
+    width: 100%;
+    height: 8vh;
+    background-color: turquoise;
+}
+.subthird h4{
+    font-size: 23px;
+    padding-top: 2vh;
+    padding-left: 40px;
+}
+.subthird2{
+    width: 94%;
+    height: 92vh;
+    background-color: rgb(165, 108, 39);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-left: 40px;
+    gap: 17px;
+    display: flex;
+}
+.sub1{
+    width: 49%;
+    height:92vh ;
+    background-color: blueviolet;
+    background-image: url(./pic1.avif);
+    background-size: cover;
+
+
+
+}
+.sub1 h4{
+    color: white;
+    padding-top: 499px;
+    padding-left: 40px;
+}
+.sub1 h3{
+    color: white;
+     padding-left: 40px;
+     padding-top: 8px;
+}
+.sub1 button{
+    width: 65px;
+    height: 35px;
+    margin-left: 40px;
+    border-radius: 16px;
+    border: 1px solid black;
+    margin-top: 17px;
+    background-color:white;
+    color: rgb(19, 16, 16);
+    font-size: 16px;
+}
+.sub2{
+    width: 50%;
+    height:92vh ;
+    background-color: blueviolet;
+    background-image: url(./pic2.avif);
+    background-size: cover;
+}
+.sub2 h4{
+    color: white;
+    padding-top: 499px;
+    padding-left: 40px;
+}
+.sub2 h3{
+    color: white;
+     padding-left: 40px;
+     padding-top: 8px;
+}
+.sub2 button{
+    width: 65px;
+    height: 35px;
+    margin-left: 40px;
+    border-radius: 16px;
+    border: 1px solid black;
+    margin-top: 17px;
+    background-color:white;
+    color: rgb(19, 16, 16);
+    font-size: 16px;
 }
