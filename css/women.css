@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.nav1{
+    width: 100%;
+    height: 5vh;
+    background-color: antiquewhite;
+}
+.nav2{
+    width: 100%;
+    height: 9vh;
+    background-color: aqua;
+}
+.nav3{
+
+    width: 100%;
+    height: 8vh;
+    background-color: rgba(244, 239, 239, 0.848);
+}
+
+.nav3 h1{
+
+    width: 100%;
+    height: 27px;
+    /* background-color: red; */
+    font-size: 17px;
+    font-weight: 100;
+    font-family: arial;
+    text-align: center;
+    padding-top: 7px;
+    color: rgb(37, 36, 36);
+}
+
+.nav3 p{
+
+    font-size: 11px;
+    font-family: arial;
+    width: 100%;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+}
+.nav4{
+    width: 1005;
+    height: 17vh;
+     background-color: blueviolet; 
+    display: flex;
+    position: fixed;
+    z-index: 3;
+}
+.women{
+    width: 15%;
+    height: 17vh;
+     background-color: brown; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.women h3{
+    font-size: 26px;
+}
+.subwomen{
+    width: 85%;
+    height: 17vh;
+     background-color: gold; 
+    display: flex;
+    padding-left: 350px;
+    align-items: center;
+    gap: 30px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.Shoes:hover{
+    color: grey;
+}
+.Clothing:hover{
+    color: gray;
+}
+.Pants:hover{
+    color: gray;
+}
+.Sports:hover{
+    color: gray;
+}
