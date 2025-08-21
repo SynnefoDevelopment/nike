@@ -108,34 +108,34 @@ ul a{
     /* background-color: aquamarine; */
 }
 .card1{
-    /* width: 300px; */
-    height: 400px;
-    flex: 1;
-    background-color: aqua;
+    width: 340px;
+    /* height: 400px; */
+    /* flex: 1; */
+    /* background-color: aqua; */
 }
 .card2{
-    /* width: 300px; */
-    height: 400px;
-    flex: 1;
-    background-color: aqua;
+    width: 340px;
+    /* height: 400px; */
+    /* flex: 1; */
+    /* background-color: aqua; */
 }
 .card3{
-    /* width: 300px; */
-    height: 400px;
-    flex: 1;
-    background-color: aqua;
+    width: 340px;
+    /* height: 400px; */
+    /* flex: 1; */
+    /* background-color: aqua; */
 }
 .card4{
-    /* width: 300px; */
-    height: 400px;
-    flex: 1;
-    background-color: aqua;
+    width: 340px;
+    /* height: 400px; */
+    /* flex: 1; */
+    /* background-color: aqua; */
 }
 .card5{
-    /* width: 300px; */
-    height: 400px;
-    flex: 1;
-    background-color: aqua;
+    width: 340px;
+    /* height: 400px; */
+    /* flex: 1; */
+    /* background-color: aqua; */
 }
 .image img{
     height: 64vh;
@@ -146,7 +146,7 @@ ul a{
     box-sizing: border-box;
     display: flex;
     color: black;
-    /* gap: 15px; */
+    gap: 3px;
     width: 90%;
     margin: 15px auto;
 }
@@ -154,7 +154,31 @@ ul a{
     box-sizing: border-box;
     display: flex;
     color: black;
-    /* gap: 15px; */
+    /* gap: 5px; */
+    width: 90%;
+    margin: 15px auto;
+}
+.cardcontent3{
+    box-sizing: border-box;
+    display: flex;
+    color: black;
+    gap: 3px;
+    width: 90%;
+    margin: 15px auto;
+}
+.cardcontent4{
+    box-sizing: border-box;
+    display: flex;
+    color: black;
+    gap: 3px;
+    width: 90%;
+    margin: 15px auto;
+}
+.cardcontent5{
+    box-sizing: border-box;
+    display: flex;
+    color: black;
+    gap: 3px;
     width: 90%;
     margin: 15px auto;
 }
@@ -169,6 +193,15 @@ ul a{
     flex: 1;
 }
 .incardcnt2{
+    flex: 1;
+}
+.incardcnt3{
+    flex: 1;
+}
+.incardcnt4{
+    flex: 1;
+}
+.incardcnt5{
     flex: 1;
 }
 .btn button{
@@ -191,82 +224,33 @@ ul a{
     font-weight: bold;
     border: none;
 }
-
-/* .card1{
-   margin: auto;
-}
-.image img{
-    height: 64vh;
-    width: 340px;
-    border-radius: 20px;
-}
-.cardcontent{
-    box-sizing: border-box;
-    display: flex;
-    color: black;
-    gap: 15px;
-    width: 90%;
-    margin: 15px auto;
-}
-.cardcontent1{
-    box-sizing: border-box;
-    display: flex;
-    color: black;
-    gap: 15px;
-    width: 90%;
-    margin: 15px auto;
-}
-.cardcontent2{
-    box-sizing: border-box;
-    display: flex;
-    color: black;
-    gap: 15px;
-    width: 90%;
-    margin: 15px auto;
-}
-.incardcnt{
-    flex: 2;
-}
-.cardcontent button{
-    flex: 1;
-    width: 50px;
-    height: 40px;
-    background-color: black;
-    color: white;
-    border-radius: 20px;
-    font-weight: bold;
-    
-}
-.cards a{
-    text-decoration: none;
-}
-.cardp{
-    font-size:larger;
-    font-weight: bold;
-}
-.cardcontent1 button{
+.btn3 button{
     flex: 1;
     width: 110px;
     height: 40px;
-    background-color: rgb(194, 191, 191);
-    color: white;
+    background-color: rgb(211, 211, 211);
+    color: gray;
     border-radius: 20px;
     font-weight: bold;
     border: none;
 }
-.cardcontent2 button{
+.btn4 button{
     flex: 1;
-    width: 90px;
+    width: 110px;
     height: 40px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
     border-radius: 20px;
     font-weight: bold;
     border: none;
 }
-.cs{
+.btn5 button{
     flex: 1;
+    width: 110px;
+    height: 40px;
+    background-color: rgb(211, 211, 211);
+    color: gray;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
 }
-.incardcnt1{
-    flex: 1;
-} */
