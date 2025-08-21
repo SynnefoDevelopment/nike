@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav1{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+.mainnav{
+    height: 100%;
+    width: 95%;
+    display: flex;
+}
+.nav1 .in{
+    height: 100%;
+    width: 50%;
+    background-color: brown;
+}
+.nav1 .in img{
+    height: 45px;
+    width: 55px;
+}
+.nav1 .out{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    align-items: center;
+    font-size: 13px;
+    background-color: rgb(173, 151, 151);
+}
+.nav1 .out .find1{
+    width: 110px;
+    height: 45%;
+    border-right: 1px solid rgb(19, 18, 18);
+
+}
+.out .find2{
+    width: 60px;
+    height: 45%;
+    border-right: 1px solid rgb(19, 18, 18);
+}
+.out .find3{
+    width: 80px;
+    height: 45%;
+    border-right: 1px solid rgb(19, 18, 18);
+}
+.out .find4{
+    width: 60px;
+    height: 45%;
+}
+
+.nav2{
+    width: 100%;
+    height: 9vh;
+    background-color: blue;
+}
