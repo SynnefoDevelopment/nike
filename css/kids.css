@@ -4,19 +4,150 @@
     padding: 0;
 }
 
-.nav1{
-
+.nav1 {
     width: 100%;
     height: 5vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(244, 239, 239, 0.848);
+}
+
+.mainnav {
+    height: 100%;
+    width: 95%;
+    display: flex;
+}
+
+.nav1 .in {
+    height: 100%;
+    width: 50%;
+}
+
+.nav1 .in img {
+    height: 45px;
+    width: 87px;
+}
+
+.nav1 .out {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    align-items: center;
+    font-size: 13px;
+}
+
+.nav1 .out .find1 {
+    width: 110px;
+    height: 45%;
+    border-right: 1px solid rgb(19, 18, 18);
+
+}
+
+.out .find2 {
+    width: 60px;
+    height: 45%;
+    border-right: 1px solid rgb(19, 18, 18);
+}
+
+.out .find3 {
+    width: 80px;
+    height: 45%;
+    border-right: 1px solid rgb(19, 18, 18);
+}
+
+.out .find4 {
+    width: 60px;
+    height: 45%;
+}
+
+.nav2 {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    /* background-color: blue; */
+}
+
+.nav2 .mainnav1 {
+    height: 100%;
+    width: 95%;
+    display: flex;
+
+}
+
+.nav2 .more1 {
+    height: 100%;
+    width: 25%;
     /* background-color: red; */
 }
 
-.nav2{
-
-    width: 100%;
-    height: 9vh;
-    /* background-color: blue; */
+.more1 img {
+    height: 100%;
+    width: 100px;
 }
+
+.nav2 .more2 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(63, 66, 9); */
+}
+
+.more2 a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.nav2 .more3 {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* background-color: red; */
+
+}
+
+.more3 button {
+    height: 40px;
+    width: 200px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    border: none;
+
+}
+.iconsearch{
+    margin-left: 20px;
+    border-radius: 100%;
+    /* background-color: red; */
+}
+.more3 .like {
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .nav3{
 
@@ -646,7 +777,7 @@ font-weight: 500;
 .seventh_img{
 
     width: 100%;
-    height: 60vh;
+    height: 55vh;
     /* background-color: blue; */
 }
 
@@ -741,6 +872,153 @@ font-weight: 500;
      flex-shrink: 0;
     
 }
+
+/* footer */
+
+.footer1{
+
+    width: 95%;
+    height: 40vh;
+    /* background-color: red; */
+    margin-left: 40px;
+    border-bottom: 1px solid rgb(181, 178, 178);
+}
+
+.foot1{
+
+    width: 70%;
+    height: 30vh;
+    /* background-color: blue; */
+    margin-left: 14%;
+    margin-top: 40px ;
+    display: flex;
+}
+
+.part1{
+
+    width: 25%;
+    height: 30vh;
+    /* background-color: green; */
+   
+    
+}
+
+.point1{
+
+    font-size: 20px;
+    font-family: arial;
+    padding-top: 50px;
+    padding-left: 60px;
+    height: 45px;
+}
+
+.points1{
+
+    font-size: 16px;
+    color: rgb(136, 133, 133);
+    height: 35px;
+    padding-left: 60px;
+    font-family: arial;
+}
+
+/* footer last */
+
+.footer2{
+
+    width: 95%;
+    height: 55vh;
+    /* background-color: red; */
+    margin-left: 40px;
+    /* display: flex; */
+}
+
+.foot2{
+
+        width: 100%;
+    height: 40vh;
+    /* background-color: blue; */
+ margin-top: 40px ;
+    display: flex;
+    gap: 140px;
+}
+
+.part2{
+
+    width: 85%;
+    height: 40vh;
+    /* background-color: green; */
+   
+    
+}
+
+.point2{
+
+    font-size: 17px;
+    font-family: arial;
+    padding-top: 30px;
+    height: 60px;
+}
+
+.points2{
+
+      font-size: 15px;
+    color: rgb(136, 133, 133);
+    height: 35px;
+    font-family: arial;
+
+}
+
+.part3{
+
+     width: 100%;
+    height: 40vh;
+    /* background-color: green; */
+    margin-left: 30px;
+    display: flex;
+    justify-content: end;
+}
+
+.part3 p{
+
+    padding-right: 20px;
+}
+
+.part3 img{
+
+    width: 20px;
+    height: 20px;
+}
+
+.foot3{
+    display: flex;
+    width: 65%;
+    font-size: 14px;
+    color: grey;
+    /* background-color: aquamarine; */
+    padding-bottom: 50px;
+    gap: 20px;
+    padding-top: 40px;
+}
+.foot3 a{
+    text-decoration: none;
+    color: grey;
+}
+.down_arrow{
+    font-size: 18px;
+    position: relative;
+    bottom: 2px;
+    
+}
+.f2{
+    display: flex;
+}
+.f3 a:hover{
+    color: black;
+}
+
+
+
+
 
 
 
