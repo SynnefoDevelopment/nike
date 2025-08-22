@@ -294,5 +294,75 @@ ul a{
 .foot{
     width: 95%;
     margin: auto;
-    background-color: aqua;
+    /* background-color: aqua; */
+}
+.foot1{
+    display: flex;
+    gap: 10px;
+}
+.foot1 a{
+    text-decoration: none;
+    color: grey;
+    line-height: 2;
+}
+.foot1{
+    font-size: 14px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.foot1 h4{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.resources{
+    flex: 1;
+}
+.helps{
+    flex: 1;
+}
+.company{
+    flex: 1;
+}
+.select_location{
+    flex: 1;
+    text-align: end;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.foot1 span{
+    font-size: 18px;
+    margin-right: 8px;
+}
+/* .select_location a{
+    text-align:justify
+} */
+.language_icon{
+    position: relative;
+    top: 3px;
+}
+.foot2{
+    display: flex;
+    width: 65%;
+    font-size: 14px;
+    color: grey;
+    /* background-color: aquamarine; */
+    padding-bottom: 50px;
+    gap: 20px;
+}
+.foot2 a{
+    text-decoration: none;
+    color: grey;
+}
+.down_arrow{
+    font-size: 8px;
+    position: relative;
+    bottom: 2px;
+    
+}
+.f2{
+    display: flex;
+}
+.f3 a:hover{
+    color: black;
 }
