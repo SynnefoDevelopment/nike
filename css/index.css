@@ -117,8 +117,18 @@
     height: 40px;
     width: 200px;
     border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
     border: none;
 
+}
+
+.iconsearch {
+    margin-left: 20px;
+    border-radius: 100%;
+    /* background-color: red; */
 }
 
 .more3 .like {
@@ -218,28 +228,298 @@
     height: 74vh;
     width: 100%;
     display: flex;
-    background-color: black;
+    /* background-color: black; */
 }
 
 .third1 {
     height: 100%;
-    width: 26%;
+    width: 25%;
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-items: end;
     background-image: url(/images/ybxex5pe3bgf1-819x1024.jpg);
+}
+
+.three1 {
+    padding-left: 30px;
+}
+
+.third p {
+    color: aliceblue;
+    font-size: 19px;
+    height: 30px;
+}
+
+.third h1 {
+    font-size: 21px;
+    font-weight: 100;
+    height: 40px;
+    font-family: arial;
+    color: aliceblue;
+    padding-top: 10px;
+    /* background-color: red; */
+}
+
+.third .ct {
+    width: 140px;
+    height: 35px;
+    border-radius: 27px;
+    border: none;
+    margin-top: 16px;
+
+}
+
+.third .cm {
+    width: 120px;
+    height: 35px;
+    border-radius: 27px;
+    border: none;
+    margin-top: 16px;
+
 }
 
 .third2 {
     height: 100%;
-    width: 26%;
+    width: 25%;
     background-position: center;
     background-size: cover;
     background-image: url(/images/img2.daumcdn.jpeg);
 }
+
 .third3 {
     height: 100%;
-    width: 48%;
+    width: 50%;
     background-position: bottom;
     background-size: cover;
+    display: flex;
+    align-items: end;
     background-image: url(/images/nike-just-do-it.avif);
+}
+
+.four {
+    height: 74vh;
+    width: 100%;
+    display: flex;
+    background-color: brown;
+}
+
+.four1 {
+    height: 100%;
+    width: 50%;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    background-image: url(/images/how-to-choose-the-best-running-shoes-for-kids.avif);
+}
+
+.four2 {
+    height: 100%;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    background-image: url(/images/nike-just-do-it-nike-com-jp.avif);
+}
+
+.three2 {
+    padding-left: 30px;
+}
+
+.four p {
+    color: aliceblue;
+    font-size: 19px;
+    height: 30px;
+}
+
+.four h1 {
+    font-size: 21px;
+    font-weight: 100;
+    height: 40px;
+    font-family: arial;
+    color: aliceblue;
+    padding-top: 10px;
+    /* background-color: red; */
+}
+
+.four .cm {
+    width: 120px;
+    height: 35px;
+    border-radius: 27px;
+    border: none;
+    margin-top: 16px;
+
+}
+
+.seventh_img {
+
+    width: 100%;
+    height: 46vh;
+    /* background-color: blue; */
+}
+
+.seventh_h1 {
+
+    width: 20%;
+    height: 60px;
+    /* background-color: green; */
+    margin-top: 5%;
+    margin-left: 50px;
+
+}
+
+.seventh_h1 h1 {
+
+    font-size: 26px;
+    font-family: arial;
+    font-weight: 500;
+
+}
+
+.seventh1 {
+
+    width: 97%;
+    height: 35vh;
+    /* background-color: red; */
+    margin-left: 45px;
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    overflow-x: scroll;
+    /* scrollbar-width: none; */
+}
+
+.seven1 {
+
+    width: 20%;
+    height: 35vh;
+    background-image: url(/images/nike-kids\ \(1\).avif);
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+    /* background-color: blue; */
+
+}
+
+.seven2 {
+
+    width: 20%;
+    height: 35vh;
+    background-image: url(/images/nike-kids\ \(2\).avif);
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+
+}
+
+.seven3 {
+
+    width: 20%;
+    height: 35vh;
+    background-image: url(/images/nike-kids\ \(4\).avif);
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+
+}
+
+.seven4 {
+
+    width: 20%;
+    height: 35vh;
+    background-image: url(/images/nike-kids\ \(5\).avif);
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+
+}
+
+.seven5 {
+
+    width: 20%;
+    height: 35vh;
+    background-image: url(/images/nike-kids\ \(6\).avif);
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+
+}
+
+.seven6 {
+
+    width: 20%;
+    height: 35vh;
+    background-image: url(/images/nike-kids\ \(7\).avif);
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+
+}
+
+.seven7 {
+
+    width: 20%;
+    height: 35vh;
+    background-image: url(/images/nike-kids\ \(3\).avif);
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+
+}
+
+.five {
+    height: 90vh;
+    width: 100%;
+ 
+    background-color: red;
+}
+
+.five1 {
+
+    width: 20%;
+    height: 60px;
+    display: flex;
+    align-items: end;
+    /* background-color: green; */
+    margin-top: 5%;
+    margin-left: 50px;
+
+}
+
+.five1 h1 {
+
+    font-size: 26px;
+    font-family: arial;
+    font-weight: 500;
+
+}
+.subfive{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+}
+.maincard{
+    width: 97%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: blue;
+}
+.card1{
+    height: 89%;
+    width: 32%;
+    background-color: brown;
+}
+.card1 .zero{
+    height: 90%;
+    width: 100%;
+    background-image: url(/images/air-jordan-1-low-shoes-lFCSjp.avif);
+    background-position: center;
+    background-size: cover;
 }
