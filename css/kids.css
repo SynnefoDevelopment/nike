@@ -483,7 +483,7 @@ font-weight: 500;
 .sixth_section{
 
     width: 100%;
-    height: 80vh;
+    height: 75vh;
     /* background-color: red; */
 }
 
@@ -492,7 +492,6 @@ font-weight: 500;
    width: 20%;
     height: 60px;
     /* background-color: green; */
-    margin-left: 4%;
     margin-left: 100px;
    
 }
@@ -523,6 +522,15 @@ font-weight: 500;
     background-size: cover;
 }
 
+.set1{
+
+    width: 200px;
+    height: 130px;
+    /* background-color: red; */
+    margin-top: 80%;
+    margin-left: 30px;
+}
+
 .sixth1 p{
 
     font-size: 19px;
@@ -532,7 +540,7 @@ font-weight: 500;
 
 .sixth1 h1{
 
-    font-size: 23px;
+    font-size: 21px;
     font-family: arial;
     font-weight: 100;
     color: white;
@@ -549,8 +557,190 @@ font-weight: 500;
 }
 
 
+.sixth2{
 
+    width: 33%;
+    height: 60vh;
+    background-image: url(./images/image\ \(6\).avif);
+    background-size: cover;
+}
 
+.set1{
+
+    width: 200px;
+    height: 130px;
+    /* background-color: red; */
+    margin-top: 80%;
+    margin-left: 30px;
+}
+
+.sixth2 p{
+
+    font-size: 19px;
+    color: white;
+    height: 30px;
+}
+
+.sixth2 h1{
+
+    font-size: 21px;
+    font-family: arial;
+    font-weight: 100;
+    color: white;
+    height: 50px;
+}
+
+.b4{
+
+     width: 80px;
+    height: 35px;
+    background-color: rgb(243, 242, 242);
+    border: none;
+    border-radius: 20px;
+}
+
+.sixth3{
+
+    width: 33%;
+    height: 60vh;
+    background-image: url(./images/f0a48dd1_7f2b_465c_ac2a_87921b04e291.webp);
+    background-size: cover;
+}
+
+.set1{
+
+    width: 200px;
+    height: 130px;
+    /* background-color: red; */
+    margin-top: 80%;
+    margin-left: 30px;
+}
+
+.sixth3 p{
+
+    font-size: 19px;
+    color: white;
+    height: 30px;
+}
+
+.sixth3 h1{
+
+    font-size: 21px;
+    font-family: arial;
+    font-weight: 100;
+    color: white;
+    height: 50px;
+}
+
+.b4{
+
+     width: 80px;
+    height: 35px;
+    background-color: rgb(243, 242, 242);
+    border: none;
+    border-radius: 20px;
+}
+
+/* seventh */
+
+.seventh_img{
+
+    width: 100%;
+    height: 60vh;
+    /* background-color: blue; */
+}
+
+.seventh_h1{
+
+   width: 20%;
+    height: 60px;
+    /* background-color: green; */
+    margin-top: 5%;
+    margin-left: 50px;
+   
+}
+
+.seventh_h1 h1{
+
+font-size: 24px;
+font-family: arial;
+font-weight: 500;
+
+}
+
+.seventh1{
+
+    width: 97%;
+    height: 35vh;
+    /* background-color: red; */
+    margin-left: 45px;
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.seven1{
+
+    width: 25%;
+    height: 35vh;
+    background-image: url(./images/nike-kids\ \(1\).avif);
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+    
+}
+.seven2{
+
+    width: 25%;
+    height: 35vh;
+    background-image: url(./images/nike-kids\ \(2\).avif);
+    background-size: cover;
+    background-position: center;
+     flex-shrink: 0;
+    
+}
+.seven3{
+
+    width: 25%;
+    height: 35vh;
+    background-image: url(./images/nike-kids\ \(4\).avif);
+    background-size: cover;
+    background-position: center;
+     flex-shrink: 0;
+    
+}
+.seven4{
+
+    width: 25%;
+    height: 35vh;
+    background-image: url(./images/nike-kids\ \(5\).avif);
+    background-size: cover;
+    background-position: center;
+     flex-shrink: 0;
+    
+}
+.seven5{
+
+    width: 25%;
+    height: 35vh;
+    background-image: url(./images/nike-kids\ \(6\).avif);
+    background-size: cover;
+    background-position: center;
+     flex-shrink: 0;
+    
+}
+.seven6{
+
+    width: 25%;
+    height: 35vh;
+    background-image: url(./images/nike-kids\ \(7\).avif);
+    background-size: cover;
+    background-position: center;
+     flex-shrink: 0;
+    
+}
 
 
 
