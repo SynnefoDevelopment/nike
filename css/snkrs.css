@@ -16,12 +16,25 @@
     border-color: gray;
 
 }
-.arrow_down{
-   display: none;
+
+.logo1 {
+    padding-top: 20px;
+    display: none;
+    height: 8vh;
 }
-.top_arrow{
+
+.resources span {
     display: none;
 }
+
+.helps span {
+    display: none;
+}
+
+.company span {
+    display: none;
+}
+
 .nav1main {
     width: 100%;
     border-style: none none solid none;
@@ -58,6 +71,7 @@
     display: flex;
     align-items: center;
     gap: 15px;
+
 }
 
 .help {
@@ -79,6 +93,7 @@
     width: 95%;
     margin: auto;
     display: flex;
+    height: 8vh;
 }
 
 .logo {
@@ -129,6 +144,10 @@ ul a {
 
 .card2 {
     width: 340px;
+}
+
+.menuicon {
+    display: none;
 }
 
 .card3 {
@@ -364,6 +383,7 @@ ul a {
     font-size: 18px;
     margin-right: 8px;
 }
+
 .language_icon {
     position: relative;
     top: 3px;
@@ -399,15 +419,18 @@ ul a {
 }
 
 @media screen and (min-width:1882px) and (max-width:2560px) {
-    .cards{
+    .cards {
         justify-content: space-evenly;
     }
+
     .nav1 {
         width: 80%;
     }
-    .cards{
+
+    .cards {
         width: 80%;
     }
+
     .nav2 {
         width: 80%;
     }
@@ -431,17 +454,21 @@ ul a {
     .card5 {
         width: 22%;
     }
-.image img{
-    width: 100%;
+
+    .image img {
+        width: 100%;
+    }
 }
-}
-@media screen and (min-width:1440px) and (max-width:1882px){
+
+@media screen and (min-width:1440px) and (max-width:1882px) {
     .nav1 {
         width: 95%;
     }
-    .cards{
+
+    .cards {
         width: 95%;
     }
+
     .nav2 {
         width: 95%;
     }
@@ -465,10 +492,12 @@ ul a {
     .card5 {
         width: 23%;
     }
-.image img{
-    width: 100%;
+
+    .image img {
+        width: 100%;
+    }
 }
-}
+
 @media screen and (min-width:1024px) and (max-width:1440px) {
     .card1 {
         width: 300px;
@@ -489,57 +518,112 @@ ul a {
     .card5 {
         width: 300px;
     }
-.image img{
-    width: 100%;
 
-}
+    .image img {
+        width: 100%;
+
+    }
 }
 @media screen and (min-width:300px) and (max-width:1023.5px) {
-    .foot2{
+    .foot2 {
         flex-direction: column;
         margin-top: 50px;
     }
-    .foot1{
+
+    .nav1a span,
+    .nav1a p {
+        display: none;
+    }
+
+    .logo1 {
+        display: block;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .foot1 {
         flex-direction: column;
         margin: 0;
         padding: 0%;
         border-style: none none solid none;
-    border-width: 1px;
-    border-color: gray;
+        border-width: 1px;
+        border-color: gray;
     }
-    .fp{
+
+    .menuicon {
+        display: block;
+    }
+
+    .help {
         display: none;
     }
-    .select_location {
-    text-align: start;
 
+    .join {
+        display: none;
+    }
+
+    .fp {
+        display: none;
+    }
+
+    .nav2 ul {
+        justify-content: center;
+    }
+
+    .select_location {
+        text-align: start;
+
+    }
+
+    .location_ona {
+        display: none;
+    }
+
+    .nav1main {
+        border: none;
+    }
+
+    .resources {
+        border-style: none none solid none;
+        border-width: 1px;
+        border-color: gray;
+        padding-bottom: 30px;
+    }
+
+    .helps {
+        border-style: none none solid none;
+        border-width: 1px;
+        border-color: gray;
+    }
+
+    .company {
+        border-style: none none solid none;
+        border-width: 1px;
+        border-color: gray;
+    }
+
+    .resources span {
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+
+    .helps span {
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+
+    .company span {
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
 }
-.resources{
-    border-style: none none solid none;
-    border-width: 1px;
-    border-color: gray;
-    padding-bottom: 30px;
-}
-.helps{
-    border-style: none none solid none;
-    border-width: 1px;
-    border-color: gray;
-}
-.company{
-    border-style: none none solid none;
-    border-width: 1px;
-    border-color: gray;
-}
-.arrow_down{
-    position: absolute;
-    right: 20px;
-}
-.top_arrow{
-    position: absolute;
-    right: 20px;
-}
-}
-@media screen and (min-width:585px) and (max-width:768px){
+
+@media screen and (min-width:585px) and (max-width:768px) {
     .card1 {
         width: 300px;
     }
@@ -559,8 +643,9 @@ ul a {
     .card5 {
         width: 300px;
     }
-.image img{
-    width: 100%;
 
-}
+    .image img {
+        width: 100%;
+
+    }
 }
