@@ -2,21 +2,152 @@
     margin: 0%;
     padding: 0%;
 }
-.nav1{
+.nav1 {
     width: 100%;
     height: 5vh;
-    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(244, 239, 239, 0.848);
 }
-.nav2{
+
+.mainnav {
+    height: 100%;
+    width: 95%;
+    display: flex;
+}
+
+.nav1 .in {
+    height: 100%;
+    width: 50%;
+}
+
+.nav1 .in img {
+    height: 20px;
+    width: 30px;
+    padding-top: 7px;
+}
+
+.nav1 .out {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    align-items: center;
+    font-size: 13px;
+}
+
+.nav1 .out .find1 {
+    width: 70px;
+    height: 45%;
+    border-right: 1px solid rgb(19, 18, 18);
+    /* background-color: yellow; */
+
+}
+
+.out .find2 {
+    width: 40px;
+    height: 45%;
+    border-right: 1px solid rgb(19, 18, 18);
+}
+
+.out .find3 {
+    width: 50px;
+    height: 45%;
+    border-right: 1px solid rgb(19, 18, 18);
+}
+
+.out .find4 {
+    width: 60px;
+    height: 45%;
+}
+
+.nav2 {
     width: 100%;
     height: 9vh;
-    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    /* background-color: blue; */
+}
+
+.nav2 .mainnav1 {
+    height: 100%;
+    width: 95%;
+    display: flex;
+
+}
+
+.nav2 .more1 {
+    height: 100%;
+    width: 25%;
+    /* background-color: red; */
+}
+
+.more1 img {
+    height: 100%;
+    width: 60px;
+}
+
+.nav2 .more2 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(63, 66, 9); */
+}
+
+.more2 a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.nav2 .more3 {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.more3 button {
+    height: 38px;
+    width: 170px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    border: none;
+
+}
+.iconsearch{
+    margin-left: 20px;
+    border-radius: 100%;
+    /* background-color: red; */
+}
+.more3 .like {
+    padding-left: 20px;
+}
+.more3 img{
+    width: 20px;
+    height: 20px;
+}
+.more3 .qsd{
+    width: 20px;
+    height: 20px;
 }
 .nav3{
 
     width: 100%;
     height: 8vh;
     background-color: rgba(244, 239, 239, 0.848);
+}
+.more3 .sea{
+
 }
 
 .nav3 h1{
@@ -85,6 +216,15 @@
 .Sports:hover{
     color: gray;
 } 
+
+@media screen  {
+    
+}
+
+
+
+
+
 .first{
     width: 100%;
     height: 100vh;
@@ -431,17 +571,18 @@ font-weight: 500;
 .footer1{
 
     width: 95%;
-    height: 40vh;
-     /* background-color: red;  */
+    height: 50vh;
+      /* background-color: red;   */
     margin-left: 40px;
     border-bottom: 1px solid rgb(181, 178, 178);
+
 }
 
 .foot1{
 
     width: 70%;
     height: 30vh;
-     /* background-color: blue; */
+      /* background-color: blue;  */
     margin-left: 14%;
     margin-top: 40px ;
     display: flex;
@@ -451,7 +592,7 @@ font-weight: 500;
 
     width: 25%;
     height: 40vh;
-     /* background-color: green;  */
+      /* background-color: green;   */
    
     
 }
@@ -472,4 +613,89 @@ font-weight: 500;
     height: 35px;
     padding-left: 60px;
     font-family: arial;
+}
+
+
+
+
+
+/* end */
+
+
+.end{
+    height: 340px;
+    width: 100%;
+    /* background-color: aliceblue; */
+    margin-top: 20px;
+}
+
+
+.end .cr{
+    display: flex;
+    justify-content: space-between;
+}
+.end .cr h6{
+font-size: 15px;
+font-weight: 700;
+}
+.end .cr p{
+font-size: 15px;
+font-weight: 600;
+color: #808081;
+line-height: 16px;
+padding-top: 40px;
+}
+
+.end .dv1{
+    height: 500px;
+    width: 300px;
+     /* background-color: cadetblue;  */
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.end .dv2{
+    height: 500px;
+    width: 300px;
+    /* background-color: cadetblue; */
+    padding-top: 20px;
+}
+.end .dv3{
+    height: 500px;
+    width: 300px;
+    /* background-color: cadetblue; */
+    padding-top: 20px;
+}
+.end .dv4{
+    height: 500px;
+    width: 300px;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: end;
+}
+.end .dv4 img{
+    height: 20px;
+    width: 20px;
+    padding-top: 30px;
+    /* padding-right: 50px; */
+}
+.end .dv4 p{
+    padding-top: 20px;
+    padding-right: 80px;
+
+}
+
+
+.end2{
+    height: 200px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    gap: 20px;
+}
+.end2 p{
+    font-size: 13px;
+font-weight: 600;
+color: #808081;
+padding-left: 30px;
+
 }
