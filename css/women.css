@@ -173,20 +173,23 @@
     font-weight: bold;
 }                                      
 .nav4{
-    width: 100%;
+    width: 95%;
     height: 17vh;
       /* background-color: blueviolet;   */
     display: flex;
     position: sticky;
     z-index: 3;
+    margin: auto;
+    gap: 35px;
 }
 .women{
     width: 15%;
     height: 17vh;
      /* background-color: brown;  */
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+     align-items: center; 
+    flex: 1;
 }
 .women h3{
     font-size: 26px;
@@ -196,11 +199,12 @@
     height: 17vh;
      /* background-color: gold;  */
     display: flex;
-    padding-left: 350px;
+    /* padding-left: 350px; */
     align-items: center;
     gap: 30px;
     font-size: 18px;
     font-weight: 400;
+    flex: 2;
 
 }
 
@@ -217,12 +221,30 @@
     color: gray;
 } 
 
-@media screen  {
-    
+@media screen and (min-width:1439px) and (max-width:2560px) {
+    .nav4{
+        width: 80%;
+        margin: auto;
+    }
 }
 
-
-
+@media screen and (min-width:768px) and (min-width:1024px){
+    .women{
+        flex: 1;
+    }
+    .subwomen{
+        flex: 1;
+    }
+}
+@media screen and (min-width:425px) and (max-width:768px){
+    .nav4{
+         flex-direction: column;
+         gap: 0px;
+    }
+    .nav1{
+        display: none;
+    }
+}
 
 
 .first{
@@ -271,7 +293,31 @@
     background-color: gray;
     border: 1px solid gray;
 }
+@media screen and (min-width:425px) and (max-width:768px) {
+    .second p{
 
+        width: 69%;
+        text-align: center;
+        font-size: 17px;
+         padding: 0px;
+    }
+    
+    .second button{
+        margin: 0%;
+        margin-top: 20px;
+    }
+    .second{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .second h1{
+         padding: 0px;
+         font-size: 30px;
+         font-weight: bolder;
+    }
+}
 .third{
     width: 100%;
     height: 100vh;
@@ -304,6 +350,7 @@
     /* background-color: blueviolet; */
     background-image: url(./pic1.avif);
     background-size: cover;
+    background-repeat: no-repeat;
 
 
 
@@ -335,6 +382,8 @@
     /* background-color: blueviolet; */
     background-image: url(./pic2.avif);
     background-size: cover;
+    background-repeat: no-repeat;
+
 }
 .sub2 h4{
     color: white;
@@ -358,7 +407,13 @@
     font-size: 16px;
 }
 
-
+@media screen and (min-width:768px) and (max-width:1024) {
+    .sub1{
+       /* background-size: 200px 200px; */
+       width: 200px;
+       height: 100px;
+    }
+}
 
 
 
@@ -387,6 +442,8 @@
 .arrow{
     display: flex;
     gap: 10px;
+    width: 100%;
+     justify-content: end;
 
 }
 .right{
@@ -395,7 +452,7 @@
     border-radius: 50px;
     border: 1px solid rgb(224, 208, 208);
     background-color: rgb(231, 229, 229);
-    margin-left: 520px;
+    /* margin-left: 520px; */
 }
 .right img{
     width: 30px;
@@ -454,10 +511,43 @@
     padding-top: 10px;
 }
 
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .subfour1{
+        width: 80%;
+        margin: auto;
+    }
+    .img1 img{
+        width: 270px;
+        height: 43vh;
+    }
+    .fours{
+        width: 80%;
+        padding: 0;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .fours h4{
+        padding: 0%;
+    }
+}
 
-
-
-
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .subfour1{
+        width: 90%;
+        margin: auto;
+    }
+    .img1 img{
+        width: 100%;
+        height: 80vh;
+    }
+    .img1{
+        width: 500px;
+       
+    }
+    .subfour1{
+        height: 90vh;
+    }
+}
 
 
 
@@ -476,6 +566,11 @@
     margin-top: 5%;
     margin-left: 40px;
    
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    .seventh_h1{
+        padding-top: 30px;
+    }
 }
 
 .seventh_h1 h1{
@@ -615,7 +710,14 @@ font-weight: 500;
     font-family: arial;
 }
 
-
+@media screen and (min-width:768px) and (max-width:1024px){
+    /* .footer1{
+        width: 90%;
+    } */
+    .part1{
+        margin: 20px 20px;
+    }
+}
 
 
 
@@ -668,7 +770,7 @@ padding-top: 40px;
 .end .dv4{
     height: 500px;
     width: 300px;
-    /* background-color: cadetblue; */
+     /* background-color: cadetblue;  */
     display: flex;
     justify-content: end;
 }
@@ -679,8 +781,8 @@ padding-top: 40px;
     /* padding-right: 50px; */
 }
 .end .dv4 p{
-    padding-top: 20px;
-    padding-right: 80px;
+    padding-top: 30px;
+    padding-right: 50px;
 
 }
 
@@ -696,6 +798,6 @@ padding-top: 40px;
     font-size: 13px;
 font-weight: 600;
 color: #808081;
-padding-left: 30px;
+padding-left: 23px;
 
 }
