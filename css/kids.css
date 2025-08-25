@@ -152,16 +152,16 @@
 .nav3{
 
     width: 100%;
-    height: 8vh;
+    height: 10vh;
     background-color: rgba(244, 239, 239, 0.848);
 }
 
 .nav3 h1{
 
     width: 100%;
-    height: 40px;
+    height: 35px;
     /* background-color: red; */
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 100;
     font-family: arial;
     text-align: center;
@@ -204,16 +204,16 @@ display: flex;
     width: 25%;
     height: 15vh;
     /* background-color: red; */
-    margin-top: 37%;
-    margin-left: 80px;
+    margin-top: 30%;
+    margin-left: 70px;
 }
 
 .first_img p{
 
-    font-size: 17px;
+    font-size: 15px;
     color: rgb(218, 213, 213);
     font-family: arial;
-    height: 35px;
+    height: 25px;
 }
 
 .first_img h1{
@@ -222,7 +222,7 @@ display: flex;
   color: rgb(218, 213, 213);
   font-size: 23px;
   font-weight: 100;
-  height: 45px;
+  height: 35px;
 }
 
 .b1{
@@ -257,7 +257,7 @@ display: flex;
 
 .section1{
 
-    width: 45%;
+    width: 55%;
     height: 15vh;
     /* background-color: red; */
     margin-top: 37%;
@@ -269,16 +269,16 @@ display: flex;
     font-size: 17px;
     color: rgb(218, 213, 213);
     font-family: arial;
-    height: 35px;
+    height: 30px;
 }
 
 .second_img h1{
 
     font-family: arial;
   color: rgb(218, 213, 213);
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 100;
-  height: 45px;
+  height: 30px;
 }
 
 .b1{
@@ -306,13 +306,13 @@ display: flex;
     height: 60px;
     /* background-color: blue; */
     margin-left: 5%;
-    margin-top: 100px;
+    margin-top: 50px;
 
 }
 
 .second_section h1{
 
-font-size: 27px;
+font-size: 25px;
 font-family: arial;
 font-weight: 500;
 
@@ -344,7 +344,7 @@ font-weight: 500;
 
 .time p{
 
-    font-size: 20px;
+    font-size: 16px;
     font-family: arial;
     padding-top: 20px;
 
@@ -491,7 +491,7 @@ font-weight: 500;
 
     width: 86%;
     height: 40vh;
-    background-color: red;
+    /* background-color: red; */
     margin-left: 100px;
     display: flex;
     gap: 20px;
@@ -887,7 +887,7 @@ font-weight: 500;
 .foot1{
 
     width: 70%;
-    height: 30vh;
+    height: 35vh;
     /* background-color: blue; */
     margin-left: 14%;
     margin-top: 40px ;
@@ -897,7 +897,7 @@ font-weight: 500;
 .part1{
 
     width: 25%;
-    height: 30vh;
+    height: 35vh;
     /* background-color: green; */
    
     
@@ -905,7 +905,7 @@ font-weight: 500;
 
 .point1{
 
-    font-size: 20px;
+    font-size: 18px;
     font-family: arial;
     padding-top: 50px;
     padding-left: 60px;
@@ -914,7 +914,7 @@ font-weight: 500;
 
 .points1{
 
-    font-size: 16px;
+    font-size: 13px;
     color: rgb(136, 133, 133);
     height: 35px;
     padding-left: 60px;
@@ -926,7 +926,7 @@ font-weight: 500;
 .footer2{
 
     width: 95%;
-    height: 55vh;
+    height: 70vh;
     /* background-color: red; */
     margin-left: 40px;
     /* display: flex; */
@@ -935,7 +935,7 @@ font-weight: 500;
 .foot2{
 
         width: 100%;
-    height: 40vh;
+    height: 55vh;
     /* background-color: blue; */
  margin-top: 40px ;
     display: flex;
@@ -945,7 +945,7 @@ font-weight: 500;
 .part2{
 
     width: 85%;
-    height: 40vh;
+    height: 55vh;
     /* background-color: green; */
    
     
@@ -953,7 +953,7 @@ font-weight: 500;
 
 .point2{
 
-    font-size: 17px;
+    font-size: 15px;
     font-family: arial;
     padding-top: 30px;
     height: 60px;
@@ -961,7 +961,7 @@ font-weight: 500;
 
 .points2{
 
-      font-size: 15px;
+      font-size: 13px;
     color: rgb(136, 133, 133);
     height: 35px;
     font-family: arial;
@@ -991,7 +991,7 @@ font-weight: 500;
 
 .foot3{
     display: flex;
-    width: 65%;
+    width: 85%;
     font-size: 14px;
     color: grey;
     /* background-color: aquamarine; */
