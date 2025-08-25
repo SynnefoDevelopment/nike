@@ -170,7 +170,7 @@ li{
 }
 
 .image img {
-    height: 60vh;
+    height: 64vh;
     width: 100%;
     border-radius: 20px;
 }
@@ -332,6 +332,7 @@ li{
 
 .loadmore a {
     color: black;
+    text-underline-offset: 10px;
 }
 
 .loadmore a:hover {
@@ -446,23 +447,23 @@ li{
     }
 
     .card1 {
-        width: 22%;
+        width: 24%;
     }
 
     .card2 {
-        width: 22%;
+        width: 24%;
     }
 
     .card3 {
-        width: 22%;
+        width: 24%;
     }
 
     .card4 {
-        width: 22%;
+        width: 24%;
     }
 
     .card5 {
-        width: 22%;
+        width: 24%;
     }
 
     .image img {
@@ -510,25 +511,25 @@ li{
 
 @media screen and (min-width:1024px) and (max-width:1440px) {
     .card1 {
-        width: 300px;
+        width: 30%;
     }
     .image img{
         height: 50vh;
     }
     .card2 {
-        width: 300px;
+        width: 30%;
     }
 
     .card3 {
-        width: 300px;
+        width: 30%;
     }
 
     .card4 {
-        width: 300px;
+        width: 30%;
     }
 
     .card5 {
-        width: 300px;
+        width: 30%;
     }
 
     .image img {
@@ -536,6 +537,29 @@ li{
 
     }
 }
+
+@media screen and (min-width:800px) and (max-width:1024px) {
+    .card1 {
+        width: 45%;
+    }
+    .card2 {
+        width: 45%;
+    }
+
+    .card3 {
+        width: 45%;
+    }
+
+    .card4 {
+        width: 45%;
+    }
+
+    .card5 {
+        width: 55%;
+    }
+
+}
+
 @media screen and (min-width:300px) and (max-width:1023.5px) {
     .foot2 {
         flex-direction: column;
@@ -638,29 +662,34 @@ li{
     }
 }
 
-@media screen and (min-width:585px) and (max-width:768px) {
+@media screen and (min-width:310px) and (max-width:768px) {
     .card1 {
-        width: 300px;
+        width: 90%;
     }
 
     .card2 {
-        width: 300px;
+        width: 90%;
     }
 
     .card3 {
-        width: 300px;
+        width: 90%;
     }
 
     .card4 {
-        width: 300px;
+        width: 90%;
     }
 
     .card5 {
-        width: 300px;
+        width: 90%;
     }
 
     .image img {
         width: 100%;
 
+    }
+}
+@media screen and (min-width:498px) and (max-width:768px) {
+    .image img{
+        height: 60vh;
     }
 }
