@@ -1000,7 +1000,7 @@ body {
         margin-top: 20px;
         margin-left: 10px;
         display: flex;
-        /* justify-content: space-between; */
+        justify-content: space-between;
         gap: 40px;
 
     }
@@ -1035,6 +1035,7 @@ body {
         height: 62vh;
         width: 49vh;
         background-color: white;
+        /* display: none; */
     }
 
     .dm1 .d2 img {
@@ -1133,6 +1134,7 @@ body {
         height: 62vh;
         width: 49vh;
         background-color: white;
+        /* display: none; */
     }
 
     .dm2 .d2 img {
@@ -1229,6 +1231,7 @@ body {
         height: 62vh;
         width: 49vh;
         background-color: white;
+        /* display: none; */
     }
 
     .dm3 .d2 img {
@@ -1323,6 +1326,8 @@ body {
         height: 62vh;
         width: 49vh;
         background-color: white;
+                /* display: none; */
+
     }
 
     .dm4 .d2 img {
@@ -1418,6 +1423,8 @@ body {
         height: 62vh;
         width: 49vh;
         background-color: white;
+                /* display: none; */
+
     }
 
     .dm5 .d2 img {
@@ -1514,6 +1521,8 @@ body {
         height: 62vh;
         width: 49vh;
         background-color: white;
+                /* display: none; */
+
     }
 
     .dm6 .d2 img {
@@ -1619,6 +1628,7 @@ body {
 
     .end2 {
         margin-top: 600px;
+        display: block;
     }
 
 
@@ -1641,7 +1651,7 @@ body {
     .nav3 {
 
         background-color: #f7f7f7;
-        padding-right: 100px;
+        /* padding-right: 100px; */
     }
 
 
@@ -1676,5 +1686,62 @@ body {
         width: 34px;
         border-radius: 100%;
     }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:788px) {
+.dm1{
+    justify-content: center;
+}
+.dm2{
+    justify-content: center;
+}
+.dm3{
+    justify-content: center;
+}
+.dm4{
+    justify-content: center;
+}
+.dm5{
+    justify-content: center;
+}
+.dm6{
+    justify-content: center;
+}
+.dm1 .d2{
+    display: none;
+}
+.dm2 .d2{
+    display: none;
+}
+.dm3 .d2{
+    display: none;
+}
+.dm4 .d2{
+    display: none;
+}
+.dm5 .d2{
+    display: none;
+}
+.dm6 .d2{
+    display: none;
+}
+
+
+
+
 
 }
