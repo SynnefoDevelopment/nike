@@ -124,7 +124,14 @@ ul a {
     color: black;
     font-weight: 600;
 }
-
+ul li{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+li{
+    align-items: center;
+}
 .content {
     width: 100%;
 }
@@ -250,6 +257,7 @@ ul a {
     border-radius: 20px;
     font-weight: bold;
     border: none;
+    transition: 0.3s;
 }
 
 .btn button:hover {
@@ -273,6 +281,7 @@ ul a {
     border-radius: 20px;
     font-weight: bold;
     border: none;
+    transition: 0.3s;
 }
 
 .btn3 button {
@@ -295,6 +304,7 @@ ul a {
     border-radius: 20px;
     font-weight: bold;
     border: none;
+    transition: 0.3s;
 }
 
 .btn5 button {
@@ -502,7 +512,9 @@ ul a {
     .card1 {
         width: 300px;
     }
-
+    .image img{
+        height: 50vh;
+    }
     .card2 {
         width: 300px;
     }
@@ -620,6 +632,9 @@ ul a {
         display: block;
         position: absolute;
         right: 20px;
+    }
+    .image img{
+        height: 45vh;
     }
 }
 
