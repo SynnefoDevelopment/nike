@@ -84,15 +84,17 @@ body{
     height: 95%;
     width: 25%;
         /* background-color: red; */
+    margin-top: 1px;
 }
 
 .more1 img {
-    height: 98%;
+    height: 90%;
     width: 80px;
+    margin-top: 3px;
 }
 
 .nav2 .more2 {
-    height: 100%;
+    height: 100px;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -109,15 +111,17 @@ body{
 }
 
 .nav2 .more3 {
+    /* background-color: aqua; */
     height: 100%;
-    width: 25%;
+    width: 18%;
     display: flex;
     justify-content: end;
     align-items: center;
 }
 
 .more3 button {
-    height: 40px;
+    /* background-color: blueviolet; */
+    height: 37px;
     width: 200px;
     border-radius: 30px;
     display: flex;
@@ -134,7 +138,8 @@ body{
 }
 .more3 .like {
     padding-left: 20px;
-}.nav3{
+}
+.nav3{
     margin-top: -15px;
     width: 100%;
     height: 8vh;
@@ -188,21 +193,29 @@ body{
 }
 .vid1{
     height: 70vh; 
-    width: 100%;
+    width: 90vw;
     /* background-color: aquamarine; */
 }
 .vid1 video{
     height: 70vh;
-    width: 100%;
+    width: 80%;
+    margin-left: 200px;
     
 }
 .more1{
-    background-color: white;
-    height: 27vh;
-    width: 100%;
+    /* background-color: rgb(227, 36, 36); */
+    height: 200px;
+    width: 90%;
     margin-top: 50px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
 }
 .more1 p{
+    padding-right: 50px;
     margin-left: 95vh;
     font-size: 18px;
 }
@@ -211,18 +224,27 @@ body{
     font-size: 60px;
     margin-top: -16px;
     font-weight: bold;
+    margin: 0;
+    
 }
-.more1 .more2{
-    /* background-color: burlywood; */
-    height: 5vh;
-    width: 150vh;
-    margin-left: 200px;
+/* .more1 .more2{
+    background-color: burlywood;
+    height: 15vh;
+    width: 860px;
+    margin-left: 300px;
     display: flex;
     margin-top: -35px;
-}
-.more2 p{
+    display: block;
+    justify-content: center;
+    border: 0;
+    padding-top: 50px;
+} */
+.more1 p{
     margin: 0;
-    margin-left: 200px;
+    /* margin-left: 100px; */
+    padding-right: 50px;
+    margin: 0px;
+
 }
 .more1 button{
     color: white;
@@ -231,23 +253,26 @@ body{
     height: 40px;
     width: 70px;
     border: 0;
-    margin-left: 100vh;
+    /* margin-left: 60vh; */
 }
 
 
 .scroll1{
-    /* background-color: aqua; */
+     /* background-color: aqua; */
     height: 60vh;
-    width: 90vw;
+    width: 80vw;
     margin-left: 75px;
     /* display: flex; */
     margin-top: 80px;
+    flex-shrink: 0;
+    border: 0;
+
 
 }
 .scroll1 .text{
     /* background-color: blueviolet; */
     height: 50px;
-    width: 100%;
+    width: 70%;
     /* width: 190vh; */
 }
 .scroll1 .scr1{
@@ -255,10 +280,13 @@ body{
     display: flex;
     gap: 20px;
     height: 70vh;
-    width: 90vw;
+    width: 85vw;
     margin-top: 5px;
     overflow-x: scroll;
     overflow-y: hidden;
+    margin: 0;
+    border: 0;
+    flex-shrink: 0;
 }
 
 /*  .scroll .scr .pic1{
@@ -272,17 +300,23 @@ body{
     width: 28vw;
 }
 .vid2{
-    /* background-color: aquamarine; */
+        /* background-color: aquamarine; */
     height: 65vh;
-    width: 100%;
+    width: 200px;
     margin-top: 240px;
+    margin-left: 80px;
+}
+.vid2 video{
+    height: 65vh;
+    width: 90vw;
+    
 }
 .scroll2{
     /* background-color: yellow; */
-    height: 60vh;
-    width: 93vw;
+    height: 70vh;
+    width: 90%;
     margin-top: 150px;
-    margin-left: 48px;
+    margin-left: 50px;
     /* display: flex; */
 }
 .scroll2 .text{
@@ -296,12 +330,12 @@ body{
 }
 .scroll2 .scr2{
     /* background-color: brown; */
-    height: 70vh;
+    height: 75vh;
     width: 93vw;
     display: flex;
     overflow-x: scroll;
     overflow-y: hidden;
-    gap: 200px;
+    gap: 270px;
     scrollbar-width: none;
 }
 .scroll2 .scr2 .pic1 {
@@ -311,8 +345,8 @@ body{
     margin-top: 10px;
 } 
 .scroll2 .scr2 .pic1 img{
-    height: 53vh;
-    width: 25vw;
+    height: 60vh;
+    width: 30vw;
 }
 
 .scroll2 .scr2 .pic2 {
@@ -322,8 +356,8 @@ body{
     margin-top: 10px;
 } 
 .scroll2 .scr2 .pic2 img{
-    height: 53vh;
-    width: 25vw;
+    height: 60vh;
+    width: 30vw;
 }
 .scroll2 .scr2 .pic3 {
     /* background-color: aqua; */
@@ -332,8 +366,8 @@ body{
     margin-top: 10px;
 } 
 .scroll2 .scr2 .pic3 img{
-    height: 53vh;
-    width: 25vw;
+    height: 60vh;
+    width: 30vw;
 }
 .scroll2 .scr2 .pic4 {
     /* background-color: aqua; */
@@ -342,8 +376,8 @@ body{
     margin-top: 10px;
 } 
 .scroll2 .scr2 .pic4 img{
-    height: 53vh;
-    width: 25vw;
+    height: 60vh;
+    width: 30vw;
 }
 .scroll2 .scr2 .pic5 {
     /* background-color: aqua; */
@@ -352,8 +386,8 @@ body{
     margin-top: 10px;
 } 
 .scroll2 .scr2 .pic5 img{
-    height: 53vh;
-    width: 25vw;
+    height: 60vh;
+    width: 30vw;
 }
 .scroll2 .scr2 .pic6 {
     /* background-color: aqua; */
@@ -362,8 +396,8 @@ body{
     margin-top: 10px;
 } 
 .scroll2 .scr2 .pic6 img{
-    height: 53vh;
-    width: 25vw;
+    height: 60vh;
+    width: 30vw;
 }
 .scroll2 .scr2 .pic7 {
     /* background-color: aqua; */
@@ -372,8 +406,8 @@ body{
     margin-top: 10px;
 } 
 .scroll2 .scr2 .pic7 img{
-    height: 53vh;
-    width: 25vw;
+    height: 60vh;
+    width: 30vw;
 }
 .scroll2 .scr2 .pic8 {
     /* background-color: aqua; */
@@ -382,8 +416,8 @@ body{
     margin-top: 10px;
 } 
 .scroll2 .scr2 .pic8 img{
-    height: 53vh;
-    width: 25vw;
+    height: 60vh;
+    width: 30vw;
 }
 .scroll2 .scr2 .pic9 {
     /* background-color: aqua; */
@@ -392,8 +426,8 @@ body{
     margin-top: 10px;
 } 
 .scroll2 .scr2 .pic9 img{
-    height: 53vh;
-    width: 25vw;
+    height: 60vh;
+    width: 30vw;
 }
 .scroll2 .scr2 .pic10 {
     /* background-color: aqua; */
@@ -402,17 +436,18 @@ body{
     margin-top: 10px;
 } 
 .scroll2 .scr2 .pic10 img{
-    height: 53vh;
-    width: 25vw;
+    height: 60vh;
+    width: 30vw;
 }
 
 
 
 .seventh_img{
     margin-top: 170px;
-    width: 100%;
+    width: 97vw;
     height: 55vh;
     /* background-color: blue; */
+    margin: 0px;
 }
 
 .seventh_h1{
@@ -435,85 +470,20 @@ font-weight: 500;
 
 .seventh1{
 
-    width: 98%;
+    width: 95vw;
     height: 35vh;
-    background-color: red;
-    margin-left: 20px;
+    /* background-color: red; */
+    margin-left: 50px;
     margin-top: 20px;
     display: flex;
     gap: 30px;
-    overflow-x: scroll;
-    scrollbar-width: none;
 }
-
-
-
-
-.seven1{
-
-    width: 25%;
+.seventh1 img{
     height: 35vh;
-    background-image: url();
-    background-size: cover;
-    background-position: center;
-    flex-shrink: 0;
-    
+    width: 95vw;
+    /* margin-left: -25px; */
+    margin: opx;
 }
-.seven2{
-
-    width: 25%;
-    height: 35vh;
-    background-image: url(./images/nike-kids\ \(2\).avif);
-    background-size: cover;
-    background-position: center;
-     flex-shrink: 0;
-    
-}
-.seven3{
-
-    width: 25%;
-    height: 35vh;
-    background-image: url(./images/nike-kids\ \(4\).avif);
-    background-size: cover;
-    background-position: center;
-     flex-shrink: 0;
-    
-}
-.seven4{
-
-    width: 25%;
-    height: 35vh;
-    background-image: url(./images/nike-kids\ \(5\).avif);
-    background-size: cover;
-    background-position: center;
-     flex-shrink: 0;
-    
-}
-.seven5{
-
-    width: 25%;
-    height: 35vh;
-    background-image: url(./images/nike-kids\ \(6\).avif);
-    background-size: cover;
-    background-position: center;
-     flex-shrink: 0;
-    
-}
-/* .seven6{
-
-    width: 25%;
-    height: 35vh;
-    background-image: url(./images/nike-kids\ \(7\).avif);
-    background-size: cover;
-    background-position: center;
-     flex-shrink: 0;
-    
-}
-
-
- */
-
-
 
 
 
@@ -529,6 +499,8 @@ font-weight: 500;
     margin-left: 75px;
     /* display: flex; */
     margin-top: 80px;
+    margin: 0;
+    padding-left: 60px;
 
 }
 .scroll3 .text{
@@ -540,20 +512,26 @@ font-weight: 500;
 .scroll3 .scr3{
     /* background-color: chartreuse; */
     display: flex;
-    gap: 20px;
+    gap: 5px;
     height: 50vh;
     width: 90vw;
     margin-top: 5px;
     overflow-x: scroll;
     overflow-y: hidden;
     scrollbar-width: none;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    
 }
 
-/*  .scroll .scr .pic1{
+ .scroll .scr .pic1{
     background-color: red;
     height: 50px;
     width: 35vw;
-} */
+}
 
 .scroll3 .scr3 img{
     height: 40vh;
@@ -561,12 +539,6 @@ font-weight: 500;
 }
 
 
-.men{
-    background-color: tomato;
-    height: 70vh;
-    width: 60vw;
-    margin-left: 300px;
-}
 
 
 
@@ -647,3 +619,121 @@ color: #808081;
 padding-left: 30px;
 
 }
+
+
+
+
+
+
+
+.resnav{
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    display: none;
+   
+}
+.res1{
+    height: 100%;
+    width: 47%;
+  
+}
+.res1 img{
+    height: 100%;
+    width: 80px;
+}
+
+.res2{
+    height: 100%;
+    width: 47%;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+.res2 img{
+    height: 34px;
+    width: 34px;
+    border-radius: 100%;
+}
+
+
+
+
+
+ @media screen and (max-width:1100px){
+    .more3 button{
+        display: none;
+    }
+}
+@media screen and (max-width:560px){
+    .more2 a{
+        display: none;
+    }
+    .nav5{
+        margin-left: 60PX;
+        margin-top: 30PX;
+    }
+    .more1 h1 {
+        text-align: center;
+    }
+
+    .more1 p{
+        display: none;
+    }
+
+
+} 
+@media screen and (max-width: 430px){
+     .more1 h1{
+        font-size: 80px;
+        text-align: center;
+    }
+    .more2 button{
+        display: none;
+    }
+    .scroll1 {
+      /* height: 90vh; */
+      margin-top: 300px;
+      width: 90vw;
+    }
+    .nav4 h1{
+      position: sticky;
+    }
+    .nav5 h2{
+        position: sticky;
+    }
+}
+@media screen and (max-width: 619px){
+    .more1 h1{
+        margin-left: 200px;
+    }
+    .more1 p{
+        margin-left: 200px;
+    }
+    .more1 button{
+        margin-left: 170px;
+    }
+    .scroll1{
+        margin-top: 270px;
+    }
+    .scroll1 .scr1 img{
+        height: 70vh;
+        width: 80vw;
+        }
+    }
+@media screen and (max-width:470px){
+    .scroll2 scr2{
+    height: 60vh;
+    width: 80%;
+    gap: 0;
+    flex-shrink: 0;
+}
+ .scroll3 .scr3 {
+    height: 100vh;
+    width: 100vw;
+ }
+}
+
