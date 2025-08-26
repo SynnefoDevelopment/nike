@@ -279,6 +279,7 @@ body {
     width: 70px;
     border: 0;
     /* margin-left: 60vh; */
+    margin-top: 50px;
 }
 
 
@@ -327,9 +328,9 @@ body {
 }
 
 .vid2 {
-        background-color: aquamarine;
+        /* background-color: aquamarine; */
     height: 70vh;
-    width: 50vw;
+    width: 60vw;
     margin-top: 150px;
     margin-left: 250px; 
     align-content: center;
@@ -338,7 +339,8 @@ body {
 
 .vid2 video {
     height: 68vh;
-    width: 100vw;
+    width: 90vw;
+    margin-left: -220px;
 }
 
 .scroll2 {
@@ -364,7 +366,7 @@ body {
 
 .scroll2 .scr2 {
     /* background-color: brown; */
-    height: 80vh;
+    height: 70vh;
     width: 93vw;
     display: flex;
     overflow-x: scroll;
@@ -924,12 +926,16 @@ body {
     .nav4 h2 {
         position: sticky;
     }
-
-
+    
     .vid2 {
         height: 45vh;
-        width: 90vw;
-        margin-top: -120px;
+    }
+
+    .vid2 video{
+        height: 65vh;
+        width: 95vw;
+        margin-left: -220px;
+        margin-top: -50px;
     }
 
     
