@@ -1,0 +1,1132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.nav1 {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(244, 239, 239, 0.848);
+}
+
+.mainnav {
+    height: 100%;
+    width: 95%;
+    display: flex;
+}
+
+.nav1 .in {
+    height: 100%;
+    width: 50%;
+}
+
+.nav1 .in img {
+    height: 45px;
+    width: 87px;
+}
+
+.nav1 .out {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    align-items: center;
+    font-size: 13px;
+}
+
+.nav1 .out .find1 {
+    width: 110px;
+    height: 45%;
+    border-right: 1px solid rgb(19, 18, 18);
+
+}
+
+.out .find2 {
+    width: 60px;
+    height: 45%;
+    border-right: 1px solid rgb(19, 18, 18);
+}
+
+.out .find3 {
+    width: 80px;
+    height: 45%;
+    border-right: 1px solid rgb(19, 18, 18);
+}
+
+.out .find4 {
+    width: 60px;
+    height: 45%;
+}
+
+.nav2 {
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    /* background-color: blue; */
+}
+
+.nav2 .mainnav1 {
+    height: 100%;
+    width: 95%;
+    display: flex;
+
+}
+
+.nav2 .more1 {
+    height: 100%;
+    width: 25%;
+    /* background-color: red; */
+}
+
+.more1 img {
+    height: 100%;
+    width: 100px;
+}
+
+.nav2 .more2 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(63, 66, 9); */
+}
+
+.more2 a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.nav2 .more3 {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.more3 button {
+    height: 40px;
+    width: 200px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    border: none;
+
+}
+
+.iconsearch {
+    margin-left: 20px;
+    border-radius: 100%;
+    /* background-color: red; */
+}
+
+.more3 .like {
+    padding-left: 20px;
+}
+
+
+.nav3 {
+
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(244, 239, 239, 0.848);
+}
+
+.nav3 h1 {
+
+    width: 100%;
+    height: 40px;
+    /* background-color: red; */
+    font-size: 22px;
+    font-weight: 100;
+    font-family: arial;
+    text-align: center;
+    padding-top: 7px;
+    color: rgb(37, 36, 36);
+}
+
+.nav3 p {
+
+    font-size: 15px;
+    font-family: arial;
+    width: 100%;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+
+.resnav{
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    display: none;
+   
+}
+.res1{
+    height: 100%;
+    width: 47%;
+  
+}
+.res1 img{
+    height: 100%;
+    width: 80px;
+}
+
+.res2{
+    height: 100%;
+    width: 47%;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+.res2 img{
+    height: 28px;
+    width: 28px;
+    border-radius: 100%;
+}
+
+
+
+@media screen and (max-width:947px) {
+    
+
+  
+
+    .resnav{
+        height: 9vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+       
+    }
+    .res1{
+        height: 100%;
+        width: 47%;
+      
+    }
+    .res1 img{
+        height: 100%;
+        width: 80px;
+    }
+    
+    .res2{
+        height: 100%;
+        width: 47%;
+        display: flex;
+        gap: 10px;
+        justify-content: flex-end;
+        align-items: center;
+       
+    }
+    .res2 img{
+        height: 24px;
+        width: 24px;
+        border-radius: 100%;
+    }
+    .nav2 {
+        width: 100%;
+        height: 9vh;
+        display: flex;
+        justify-content: center;
+        /* background-color: blue; */
+    }
+
+
+    .nav1 {
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        display: none;
+        background-color: rgba(244, 239, 239, 0.848);
+    }
+    
+    .mainnav {
+        height: 100%;
+        width: 95%;
+        display: flex;
+    }
+    
+    .nav1 .in {
+        height: 100%;
+        width: 50%;
+    }
+    
+    .nav1 .in img {
+        height: 45px;
+        width: 87px;
+    }
+    
+    .nav1 .out {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        gap: 10px;
+        justify-content: end;
+        align-items: center;
+        font-size: 13px;
+    }
+    
+    .nav1 .out .find1 {
+        width: 110px;
+        height: 45%;
+        border-right: 1px solid rgb(19, 18, 18);
+    
+    }
+    
+    .out .find2 {
+        width: 60px;
+        height: 45%;
+        border-right: 1px solid rgb(19, 18, 18);
+    }
+    
+    .out .find3 {
+        width: 80px;
+        height: 45%;
+        border-right: 1px solid rgb(19, 18, 18);
+    }
+    
+    .out .find4 {
+        width: 60px;
+        height: 45%;
+    }
+    
+    .nav2 {
+        width: 100%;
+        height: 9vh;
+        display: flex;
+        justify-content: center;
+        display: none;
+        /* background-color: blue; */
+    }
+    
+    .nav2 .mainnav1 {
+        height: 100%;
+        width: 95%;
+        display: flex;
+    
+    }
+    
+    .nav2 .more1 {
+        height: 100%;
+        width: 25%;
+        /* background-color: red; */
+    }
+    
+    .more1 img {
+        height: 100%;
+        width: 100px;
+    }
+    
+    .nav2 .more2 {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(63, 66, 9); */
+    }
+    
+    .more2 a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 600;
+        padding-left: 20px;
+    }
+    
+    .nav2 .more3 {
+        height: 100%;
+        width: 25%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    
+    .more3 button {
+        height: 40px;
+        width: 200px;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 20px;
+        border: none;
+    
+    }
+    
+    .iconsearch {
+        margin-left: 20px;
+        border-radius: 100%;
+        /* background-color: red; */
+    }
+    
+    .more3 .like {
+        padding-left: 20px;
+    }
+    .nav3{
+        height: 13vh;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.first {
+    height: 75vh;
+    width: 100%;
+    background-position: center;
+    background-image: url(/images/best-nike-shoes-for-standing-all-day.avif);
+}
+
+.second {
+    height: 48vh;
+    width: 100%;
+    /* background-color: blueviolet; */
+}
+
+.second1 {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.sec_info {
+    height: 55%;
+    width: 40%;
+    /* background-color: burlywood; */
+}
+
+.sec_info #head {
+    font-size: 90px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.sec_info #non {
+    font-size: 19px;
+    text-align: center;
+}
+
+.sec_info #no {
+    font-size: 19px;
+    text-align: center;
+}
+
+.second2 {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    /* background-color: red; */
+    align-items: center;
+}
+
+.second2 h1 {
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.third {
+    height: 74vh;
+    width: 100%;
+    display: flex;
+    /* background-color: black; */
+}
+
+.third1 {
+    height: 100%;
+    width: 50%;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    background-image: url(/images/nikejust-do-it.avif );
+}
+
+.three1 {
+    padding-left: 30px;
+}
+
+.third p {
+    color: aliceblue;
+    font-size: 19px;
+    height: 30px;
+}
+
+.third h1 {
+    font-size: 21px;
+    font-weight: 100;
+    height: 40px;
+    font-family: arial;
+    color: aliceblue;
+    padding-top: 10px;
+    /* background-color: red; */
+}
+
+.third .ct {
+    width: 140px;
+    height: 35px;
+    border-radius: 27px;
+    border: none;
+    margin-top: 16px;
+
+}
+
+.third .cm {
+    width: 120px;
+    height: 35px;
+    border-radius: 27px;
+    border: none;
+    margin-top: 16px;
+
+}
+
+
+
+.third3 {
+    height: 100%;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    background-image: url(/images/Gy4YnqqXwAAfbmq.jpg);
+}
+
+.four {
+    height: 74vh;
+    width: 100%;
+    display: flex;
+    background-color: brown;
+}
+
+.four1 {
+    height: 100%;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    background-image: url(/images/nike-just-do-it.avif);
+}
+
+.four2 {
+    height: 100%;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    background-image: url(/images/fa25-dual-gender-fa25-se-aj40-cg11z1-sustain-epdp-nike-com-1uzx-hm9931-400.png);
+}
+
+.three2 {
+    padding-left: 30px;
+}
+
+.four p {
+    color: aliceblue;
+    font-size: 19px;
+    height: 30px;
+}
+
+.four h1 {
+    font-size: 21px;
+    font-weight: 100;
+    height: 40px;
+    font-family: arial;
+    color: aliceblue;
+    padding-top: 10px;
+    /* background-color: red; */
+}
+
+.four .cm {
+    width: 120px;
+    height: 35px;
+    border-radius: 27px;
+    border: none;
+    margin-top: 16px;
+
+}
+
+.seventh_img {
+
+    width: 100%;
+    height: 46vh;
+    /* background-color: blue; */
+}
+
+.seventh_h1 {
+
+    width: 20%;
+    height: 60px;
+    /* background-color: green; */
+    margin-top: 5%;
+    margin-left: 50px;
+
+}
+
+.seventh_h1 h1 {
+
+    font-size: 26px;
+    font-family: arial;
+    font-weight: 500;
+
+}
+
+.seventh1 {
+
+    width: 97%;
+    height: 35vh;
+    /* background-color: red; */
+    margin-left: 45px;
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    overflow-x: scroll;
+    /* scrollbar-width: none; */
+}
+
+.seven1 {
+
+    width: 20%;
+    height: 35vh;
+    background-image: url(/images/nike-kids\ \(1\).avif);
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+    /* background-color: blue; */
+
+}
+
+.seven2 {
+
+    width: 20%;
+    height: 35vh;
+    background-image: url(/images/nike-kids\ \(2\).avif);
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+
+}
+
+.seven3 {
+
+    width: 20%;
+    height: 35vh;
+    background-image: url(/images/nike-kids\ \(4\).avif);
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+
+}
+
+.seven4 {
+
+    width: 20%;
+    height: 35vh;
+    background-image: url(/images/nike-kids\ \(5\).avif);
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+
+}
+
+.seven5 {
+
+    width: 20%;
+    height: 35vh;
+    background-image: url(/images/nike-kids\ \(6\).avif);
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+
+}
+
+.seven6 {
+
+    width: 20%;
+    height: 35vh;
+    background-image: url(/images/nike-kids\ \(7\).avif);
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+
+}
+
+.seven7 {
+
+    width: 20%;
+    height: 35vh;
+    background-image: url(/images/nike-kids\ \(3\).avif);
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+
+}
+
+.five {
+    height: 103vh;
+    width: 100%;
+
+    /* background-color: rgb(0, 0, 0); */
+}
+
+.five1 {
+
+    width: 20%;
+    height: 60px;
+    display: flex;
+    align-items: end;
+    /* background-color: green; */
+    margin-top: 5%;
+    margin-left: 50px;
+
+}
+
+.five1 h1 {
+
+    font-size: 26px;
+    font-family: arial;
+    font-weight: 500;
+
+}
+
+.subfive {
+    height: 89vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blueviolet; */
+}
+
+.maincard {
+    width: 97%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    overflow-x: scroll;
+    /* background-color: blue; */
+}
+
+.card1 {
+    height: 89%;
+    width: 32%;
+    flex-shrink: 0;
+    /* background-color: brown; */
+}
+
+.card1 .zero {
+    height: 90%;
+    width: 100%;
+    background-image: url(/images/air-jordan-1-low-shoes-lFCSjp.avif);
+    background-position: center;
+    background-size: cover;
+}
+
+.card1 h3 {
+    font-size: 21px;
+    font-weight: 100;
+    height: 30px;
+    font-family: arial;
+    /* color: aliceblue; */
+    padding-top: 5px
+}
+
+.card1 p {
+    /* color: aliceblue; */
+    font-size: 17px;
+
+}
+
+.six {
+    height: 70vh;
+    width: 100%;
+    /* background-color: red; */
+}
+.six1 {
+
+    width: 20%;
+    height: 60px;
+    display: flex;
+    align-items: end;
+    /* background-color: green; */
+    margin-top: 5%;
+    margin-left: 50px;
+
+}
+.sixmain button{
+    height: 45px;
+    width: 130px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 550;
+    background-color: white;
+    font-size: 16px;
+}
+
+.six1 h1 {
+
+    font-size: 26px;
+    font-family: arial;
+    font-weight: 500;
+
+}
+.sixmain{
+    width: 95%;
+    height: 48vh;
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    overflow-x: scroll;
+    flex-shrink: 0;
+    /* background-color: blue; */
+}
+.sixone1{
+    height: 45vh;
+    width: 30%;
+    flex-shrink: 0;
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    background-image: url(/images/Capture-decran-2024-09-26-003414-1.png);
+}
+.sixone2{
+    height: 45vh;
+    width: 30%;
+    background-position: left;
+    background-size: cover;
+    flex-shrink: 0;
+    display: flex;
+    align-items: end;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    background-image: url(/images/1738585681669.jpg);
+}
+.sixone3{
+    height: 45vh;
+    width: 30%;
+    flex-shrink: 0;
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    background-image: url(/images/basketball.webp);
+}
+.sixone4{
+    height: 45vh;
+    width: 30%;
+    flex-shrink: 0;
+    background-position: left;
+    background-size: cover;
+    background-image: url(/images/TENNIS.jpeg);
+}
+.sixone5{
+    height: 45vh;
+    width: 30%;
+    flex-shrink: 0;
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    background-image: url(/images/tra.webp);
+}
+.sixone6{
+    height: 45vh;
+    width: 30%;
+    flex-shrink: 0;
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    background-image: url(/images/YOGA.jpeg);
+}
+.sixone7{
+    height: 45vh;
+    width: 30%;
+    flex-shrink: 0;
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    background-image: url(/images/nike-just-do-it-10.jpg);
+}
+.sixone8{
+    height: 45vh;
+
+    width: 30%;
+    flex-shrink: 0;
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    background-image: url(/images/nike-just-do-it-9.jpg);
+}
+.mainfoot {
+    width: 100%;
+}
+
+.foot {
+    width: 95%;
+    margin: auto;
+}
+
+.foot1 {
+    display: flex;
+    gap: 10px;
+}
+
+.foot1 a {
+    text-decoration: none;
+    color: grey;
+    line-height: 2;
+}
+
+.foot1 {
+    font-size: 14px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+.foot1 h4 {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.resources {
+    flex: 1;
+}
+
+.helps {
+    flex: 1;
+}
+
+.company {
+    flex: 1;
+}
+
+.select_location {
+    flex: 1;
+    text-align: end;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.foot1 span {
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.language_icon {
+    position: relative;
+    top: 3px;
+}
+
+.foot2 {
+    display: flex;
+    width: 65%;
+    font-size: 14px;
+    color: grey;
+    padding-bottom: 50px;
+    gap: 20px;
+}
+
+.foot2 a {
+    text-decoration: none;
+    color: grey;
+}
+
+.down_arrow {
+    font-size: 8px;
+    position: relative;
+    bottom: 2px;
+
+}
+
+.f2 {
+    display: flex;
+}
+
+.f3 a:hover {
+    color: black;
+}
+@media screen and (min-width:300px) and (max-width:1023.5px){
+
+
+
+    .seventh1 {
+
+        width: 97%;
+        height: 40vh;
+        /* background-color: red; */
+        margin-left: 45px;
+        margin-top: 20px;
+        display: flex;
+        gap: 30px;
+        overflow-x: scroll;
+        /* scrollbar-width: none; */
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    .foot1 {
+        flex-direction: column;
+        margin: 0;
+        padding: 0%;
+        border-style: none none solid none;
+        border-width: 1px;
+        border-color: gray;
+    }
+
+    .menuicon {
+        display: block;
+    }
+
+    .help {
+        display: none;
+    }
+
+    .join {
+        display: none;
+    }
+
+    .fp {
+        display: none;
+    }
+
+    .nav2 ul {
+        justify-content: center;
+    }
+
+    .select_location {
+        text-align: start;
+
+    }
+
+    .location_ona {
+        display: none;
+    }
+
+    .nav1main {
+        border: none;
+    }
+
+    .resources {
+        border-style: none none solid none;
+        border-width: 1px;
+        border-color: gray;
+        padding-bottom: 30px;
+    }
+
+    .helps {
+        border-style: none none solid none;
+        border-width: 1px;
+        border-color: gray;
+    }
+
+    .company {
+        border-style: none none solid none;
+        border-width: 1px;
+        border-color: gray;
+    }
+
+    .resources span {
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+
+    .helps span {
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+
+    .company span {
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+    .foot2 {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+}
