@@ -1,0 +1,666 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+.main {
+    width: 100%;
+
+}
+
+.nav {
+    width: 100%;
+    border-style: none none solid none;
+    border-width: 1px;
+    border-color: gray;
+
+}
+
+.logo1 {
+    padding-top: 20px;
+    display: none;
+    height: 8vh;
+}
+
+.resources span {
+    display: none;
+}
+
+.helps span {
+    display: none;
+}
+
+.company span {
+    display: none;
+}
+
+.nav1main {
+    width: 100%;
+    border-style: none none solid none;
+    border-width: 1px;
+    border-color: gray;
+}
+
+.nav1 span {
+    font-size: medium
+}
+
+.nav1a {
+    font-size: small;
+    display: flex;
+    height: 5vh;
+    align-items: center;
+    color: gray;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.nav1 a {
+    text-decoration: none;
+}
+
+.nav1b {
+    font-size: small;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.help {
+    font-weight: bold;
+
+}
+
+.nav1b a {
+    text-decoration: none;
+    color: gray;
+
+}
+
+.logo img {
+    height: 8vh;
+}
+
+.nav2 {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    height: 8vh;
+}
+
+.logo {
+    flex: 2;
+}
+
+.lists {
+    flex: 3;
+
+}
+
+.lists ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    height: 100%;
+    align-items: center;
+}
+
+.lists li:hover {
+    border-style: none none solid none;
+    border-width: 3px;
+    border-color: black;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+ul li{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+li{
+    align-items: center;
+}
+.content {
+    width: 100%;
+}
+
+.cards {
+    width: 95%;
+    margin: 35px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.card1 {
+    width: 340px;
+}
+
+.card2 {
+    width: 340px;
+}
+
+.menuicon {
+    display: none;
+}
+
+.card3 {
+    width: 340px;
+}
+
+.card4 {
+    width: 340px;
+}
+
+.card5 {
+    width: 340px;
+}
+
+.image img {
+    height: 60vh;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.cardcontent {
+    box-sizing: border-box;
+    display: flex;
+    color: black;
+    gap: 3px;
+    width: 90%;
+    margin: 15px auto;
+}
+
+.cardcontent2 {
+    box-sizing: border-box;
+    display: flex;
+    color: black;
+    width: 90%;
+    margin: 15px auto;
+}
+
+.cardcontent3 {
+    box-sizing: border-box;
+    display: flex;
+    color: black;
+    gap: 3px;
+    width: 90%;
+    margin: 15px auto;
+}
+
+.cardcontent4 {
+    box-sizing: border-box;
+    display: flex;
+    color: black;
+    gap: 3px;
+    width: 90%;
+    margin: 15px auto;
+}
+
+.cardcontent5 {
+    box-sizing: border-box;
+    display: flex;
+    color: black;
+    gap: 3px;
+    width: 90%;
+    margin: 15px auto;
+}
+
+.cards a {
+    text-decoration: none;
+}
+
+.cardp {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.incardcnt {
+    flex: 1;
+}
+
+.incardcnt2 {
+    flex: 1;
+}
+
+.incardcnt3 {
+    flex: 1;
+}
+
+.incardcnt4 {
+    flex: 1;
+}
+
+.incardcnt5 {
+    flex: 1;
+}
+
+.btn button {
+    flex: 1;
+    width: 110px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn button:hover {
+    background-color: gray;
+}
+
+.btn2 button:hover {
+    background-color: gray;
+}
+
+.btn4 button:hover {
+    background-color: gray;
+}
+
+.btn2 button {
+    flex: 1;
+    width: 110px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn3 button {
+    flex: 1;
+    width: 110px;
+    height: 40px;
+    background-color: rgb(211, 211, 211);
+    color: gray;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+.btn4 button {
+    flex: 1;
+    width: 110px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn5 button {
+    flex: 1;
+    width: 110px;
+    height: 40px;
+    background-color: rgb(211, 211, 211);
+    color: gray;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+.loadmore {
+    width: 95%;
+    height: 30vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none none solid none;
+    border-width: 1px;
+    border-color: gray;
+}
+
+.loadmore a {
+    color: black;
+}
+
+.loadmore a:hover {
+    color: gray;
+}
+
+.mainfoot {
+    width: 100%;
+}
+
+.foot {
+    width: 95%;
+    margin: auto;
+}
+
+.foot1 {
+    display: flex;
+    gap: 10px;
+}
+
+.foot1 a {
+    text-decoration: none;
+    color: grey;
+    line-height: 2;
+}
+
+.foot1 {
+    font-size: 14px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+.foot1 h4 {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.resources {
+    flex: 1;
+}
+
+.helps {
+    flex: 1;
+}
+
+.company {
+    flex: 1;
+}
+
+.select_location {
+    flex: 1;
+    text-align: end;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.foot1 span {
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.language_icon {
+    position: relative;
+    top: 3px;
+}
+
+.foot2 {
+    display: flex;
+    width: 65%;
+    font-size: 14px;
+    color: grey;
+    padding-bottom: 50px;
+    gap: 20px;
+}
+
+.foot2 a {
+    text-decoration: none;
+    color: grey;
+}
+
+.down_arrow {
+    font-size: 8px;
+    position: relative;
+    bottom: 2px;
+
+}
+
+.f2 {
+    display: flex;
+}
+
+.f3 a:hover {
+    color: black;
+}
+
+@media screen and (min-width:1882px) and (max-width:2560px) {
+    .cards {
+        justify-content: space-evenly;
+    }
+
+    .nav1 {
+        width: 80%;
+    }
+
+    .cards {
+        width: 80%;
+    }
+
+    .nav2 {
+        width: 80%;
+    }
+
+    .card1 {
+        width: 22%;
+    }
+
+    .card2 {
+        width: 22%;
+    }
+
+    .card3 {
+        width: 22%;
+    }
+
+    .card4 {
+        width: 22%;
+    }
+
+    .card5 {
+        width: 22%;
+    }
+
+    .image img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1440px) and (max-width:1882px) {
+    .nav1 {
+        width: 95%;
+    }
+
+    .cards {
+        width: 95%;
+    }
+
+    .nav2 {
+        width: 95%;
+    }
+
+    .card1 {
+        width: 23%;
+    }
+
+    .card2 {
+        width: 23%;
+    }
+
+    .card3 {
+        width: 23%;
+    }
+
+    .card4 {
+        width: 23%;
+    }
+
+    .card5 {
+        width: 23%;
+    }
+
+    .image img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1440px) {
+    .card1 {
+        width: 300px;
+    }
+    .image img{
+        height: 50vh;
+    }
+    .card2 {
+        width: 300px;
+    }
+
+    .card3 {
+        width: 300px;
+    }
+
+    .card4 {
+        width: 300px;
+    }
+
+    .card5 {
+        width: 300px;
+    }
+
+    .image img {
+        width: 100%;
+
+    }
+}
+@media screen and (min-width:300px) and (max-width:1023.5px) {
+    .foot2 {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .nav1a span,
+    .nav1a p {
+        display: none;
+    }
+
+    .logo1 {
+        display: block;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .foot1 {
+        flex-direction: column;
+        margin: 0;
+        padding: 0%;
+        border-style: none none solid none;
+        border-width: 1px;
+        border-color: gray;
+    }
+
+    .menuicon {
+        display: block;
+    }
+
+    .help {
+        display: none;
+    }
+
+    .join {
+        display: none;
+    }
+
+    .fp {
+        display: none;
+    }
+
+    .nav2 ul {
+        justify-content: center;
+    }
+
+    .select_location {
+        text-align: start;
+
+    }
+
+    .location_ona {
+        display: none;
+    }
+
+    .nav1main {
+        border: none;
+    }
+
+    .resources {
+        border-style: none none solid none;
+        border-width: 1px;
+        border-color: gray;
+        padding-bottom: 30px;
+    }
+
+    .helps {
+        border-style: none none solid none;
+        border-width: 1px;
+        border-color: gray;
+    }
+
+    .company {
+        border-style: none none solid none;
+        border-width: 1px;
+        border-color: gray;
+    }
+
+    .resources span {
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+
+    .helps span {
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+
+    .company span {
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+    .image img{
+        height: 45vh;
+    }
+}
+
+@media screen and (min-width:585px) and (max-width:768px) {
+    .card1 {
+        width: 300px;
+    }
+
+    .card2 {
+        width: 300px;
+    }
+
+    .card3 {
+        width: 300px;
+    }
+
+    .card4 {
+        width: 300px;
+    }
+
+    .card5 {
+        width: 300px;
+    }
+
+    .image img {
+        width: 100%;
+
+    }
+}
