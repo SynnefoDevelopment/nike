@@ -452,7 +452,8 @@
     font-weight: 300;
     font-size: 24px;
 }
-.second1 .new2{
+
+.second1 .new2 {
     height: 40px;
     width: 110px;
     border-radius: 30px;
@@ -460,15 +461,16 @@
     background-color: black;
     color: aliceblue;
     font-size: 18px;
-margin-top: 20px;
-   margin-left: 40%;
-   align-items: center;
+    margin-top: 20px;
+    margin-left: 40%;
+    align-items: center;
 }
 
 .third {
     height: 74vh;
     width: 100%;
     display: flex;
+    /* display: none; */
     /* background-color: black; */
 }
 
@@ -479,6 +481,7 @@ margin-top: 20px;
     background-size: cover;
     display: flex;
     align-items: end;
+    /* background-color: red; */
     background-image: url(/images/nikejust-do-it.avif );
 }
 
@@ -536,7 +539,7 @@ margin-top: 20px;
     height: 74vh;
     width: 100%;
     display: flex;
-    background-color: brown;
+    /* background-color: brown; */
 }
 
 .four1 {
@@ -588,43 +591,6 @@ margin-top: 20px;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .seventh_img {
 
     width: 100%;
@@ -636,8 +602,6 @@ margin-top: 20px;
 
     width: 20%;
     height: 60px;
-    /* background-color: green; */
- 
     margin-left: 50px;
 
 }
@@ -739,12 +703,12 @@ margin-top: 20px;
     background-position: center;
     flex-shrink: 0;
 
-} */
+}
 
-.five {
+*/ .five {
     height: 103vh;
     width: 100%;
-display: none;
+    display: none;
     /* background-color: rgb(0, 0, 0); */
 }
 
@@ -1057,118 +1021,521 @@ display: none;
     color: black;
 }
 
-@media screen and (min-width:300px) and (max-width:1023.5px) {
+@media screen and (min-width:601px) and (max-width:1023.5px) {
 
 
 
-.second{
-    height: 69vh;
+    .second {
+        height: 69vh;
+    }
+
+
+    .card1 {
+        width: 60%;
+    }
+
+
+
+
+    .seven1 {
+        width: 30%;
+    }
+
+    .seven2 {
+        width: 30%;
+    }
+
+    .seven3 {
+        width: 30%;
+    }
+
+    .seven4 {
+        width: 30%;
+    }
+
+    .seven5 {
+        width: 30%;
+    }
+
+    .seven6 {
+        width: 30%;
+    }
+
+    .seven7 {
+        width: 30%;
+    }
+
+
+
+
+    .six {
+
+        height: 86vh;
+    }
+
+    .sixmain {
+        width: 95%;
+        height: 70vh;
+        margin-left: 30px;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        overflow-x: scroll;
+        flex-shrink: 0;
+        /* background-color: red; */
+    }
+
+    .sixone1 {
+        width: 50%;
+        height: 90%;
+    }
+
+    .sixone2 {
+        width: 50%;
+        height: 90%;
+    }
+
+    .sixone3 {
+        width: 50%;
+        height: 90%;
+    }
+
+    .sixone4 {
+        width: 50%;
+        height: 90%;
+    }
+
+    .sixone5 {
+        width: 50%;
+        height: 90%;
+    }
+
+    .sixone6 {
+        width: 50%;
+        height: 90%;
+    }
+
+
+    .sixone7 {
+        width: 50%;
+        height: 90%;
+    }
+
+    .sixone8 {
+        width: 50%;
+        height: 90%;
+    }
+
+
+
+
+
+
+    .foot1 {
+        flex-direction: column;
+        margin: 0;
+        padding: 0%;
+        border-style: none none solid none;
+        border-width: 1px;
+        border-color: gray;
+    }
+
+    .menuicon {
+        display: block;
+    }
+
+    .help {
+        display: none;
+    }
+
+    .join {
+        display: none;
+    }
+
+    .fp {
+        display: none;
+    }
+
+    .nav2 ul {
+        justify-content: center;
+    }
+
+    .select_location {
+        text-align: start;
+
+    }
+
+    .location_ona {
+        display: none;
+    }
+
+    .nav1main {
+        border: none;
+    }
+
+    .resources {
+        border-style: none none solid none;
+        border-width: 1px;
+    }
+
+    .six {
+
+        height: 86vh;
+    }
+
+    .sixmain {
+        width: 95%;
+        height: 70vh;
+        margin-left: 30px;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        overflow-x: scroll;
+        flex-shrink: 0;
+        /* background-color: red; */
+    }
+
+    .sixone1 {
+        width: 50%;
+        height: 90%;
+    }
+
+    .sixone2 {
+        width: 50%;
+        height: 90%;
+    }
+
+    .sixone3 {
+        width: 50%;
+        height: 90%;
+    }
+
+    .sixone4 {
+        width: 50%;
+        height: 90%;
+    }
+
+    .sixone5 {
+        width: 50%;
+        height: 90%;
+    }
+
+    .sixone6 {
+        width: 50%;
+        height: 90%;
+    }
+
+
+    .sixone7 {
+        width: 50%;
+        height: 90%;
+    }
+
+    .sixone8 {
+        width: 50%;
+        height: 90%;
+    }
+
+
+
+    .helps {
+        border-style: none none solid none;
+        border-width: 1px;
+        border-color: gray;
+    }
+
+    .company {
+        border-style: none none solid non
+    }
+
+    .six {
+
+        height: 86vh;
+    }
+
+    .sixmain {
+        width: 95%;
+        height: 70vh;
+        margin-left: 30px;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        overflow-x: scroll;
+        flex-shrink: 0;
+        /* background-color: red; */
+    }
+
+    .sixone1 {
+        width: 50%;
+        height: 90%;
+    }
+
+    .sixone2 {
+        width: 50%;
+        height: 90%;
+    }
+
+    .sixone3 {
+        width: 50%;
+        height: 90%;
+    }
+
+    .sixone4 {
+        width: 50%;
+        height: 90%;
+    }
+
+    .sixone5 {
+        width: 50%;
+        height: 90%;
+    }
+
+    .sixone6 {
+        width: 50%;
+        height: 90%;
+    }
+
+
+    .sixone7 {
+        width: 50%;
+        height: 90%;
+    }
+
+    .sixone8 {
+        width: 50%;
+        height: 90%;
+    }
+
+
+    .resources span {
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+
+    .helps span {
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+
+    .company span {
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+
+    .foot2 {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
 }
 
+@media screen and (min-width:301px) and (max-width:600px) {
 
-.card1{
-    width: 60%;
-}
+    .second {
+        height: 40vh;
+        /* background-color: red; */
+    }
+
+    .second1 {
+        height: 90%;
+        width: 100%;
+        /* display: flex; */
+        justify-content: start;
+        align-items: center;
+
+    }
+
+    .sec_info #non {
+        height: 40px;
+        text-align: left;
+        padding-left: 15px;
+    }
+
+    .sec_info {
+        height: 55%;
+        width: 99%;
+        /* background-color: burlywood; */
+    }
+
+    .sec_info #head {
+        font-size: 30px;
+        width: 340px;
+        height: 50px;
+        font-weight: 900;
+        text-align: start;
+        padding-left: 10px;
+        /* background-color: red; */
+    }
+
+    .sec_info #no {
+        font-size: 16px;
+        width: 390px;
+        padding-left: 15px;
+        text-align: left;
+        /* justify-content: start; */
+        /* background-color: red; */
+    }
+
+    .third {
+        /* height: 86vh; */
+        width: 100%;
+        display: block;
+        /* display: none; */
+        background-color: black;
+    }
+
+    .third1 {
+        height: 100%;
+        width: 100%;
+        background-position: bottom;
+        background-size: cover;
+        /* display: flex; */
+        align-items: end;
+        background-color: red;
+        /* background-image: url(/images/nikejust-do-it.avif ); */
+    }
+
+    .third3 {
+        width: 100%;
+    }
+
+    .four {
+        display: block;
+        margin-top: 74vh;
+    }
+
+    .four1 {
+        width: 100%;
+    }
+
+    .four2 {
+        width: 100%;
+    }
+
+    .seventh_img {
+        margin-top: 78vh;
+    }
+
+    .seventh_h1 {
+        width: 190px;
+    }
+
+    .seven1 {
+        width: 70%;
+    }
+
+    .seven2 {
+        width: 70%;
+    }
+
+    .seven3 {
+        width: 70%;
+    }
+
+    .seven4 {
+        width: 70%;
+    }
+
+    .seven5 {
+        width: 70%;
+    }
+
+    .seven6 {
+        width: 70%;
+        ;
+    }
+
+    .seven7 {
+        width: 70%;
+    }
+
+    .card1 {
+        width: 90%;
+        height: 50vh;
+    }
+
+    .maincard {
+        height: 70vh;
+    }
+
+    .subfive {
+        height: 70vh;
+    }
+
+    .five1 {
+        width: 70%;
+        /* background-color: red; */
+    }
+
+    .six {
+background-color: red;
+        height: 60vh;
+    }
+
+    .six1 {
+        width: 70%;
+       
+
+    }
+
+    .sixmain {
+        width: 95%;
+        height: 64vh;
+        margin-left: 30px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        overflow-x: scroll;
+        flex-shrink: 0;
+
+    }
+
+    .sixone1 {
+        width: 80%;
+        height: 60%;
+    }
+
+    .sixone2 {
+        width: 80%;
+        height: 60%;
+    }
+
+    .sixone3 {
+        width: 80%;
+        height: 60%;
+    }
+
+    .sixone4 {
+        width: 80%;
+        height: 60%;
+    }
+
+    .sixone5 {
+        width: 80%;
+        height: 60%;
+    }
+
+    .sixone6 {
+        width: 80%;
+        height: 60%;
+    }
 
 
+    .sixone7 {
+        width: 80%;
+        height: 60%;
+    }
 
-
-.seven1{
-    width: 30%;
-}
-.seven2{
-    width: 30%;
-}
-
-.seven3{
-    width: 30%;
-}
-.seven4{
-    width: 30%;
-}
-.seven5{
-    width: 30%;
-}
-.seven6{
-    width: 30%;
-}
-.seven7{
-    width: 30%;
-}
-
-
-
-
-.six{
-
-    height: 86vh;
-}
-.sixmain{
-    width: 95%;
-    height: 70vh;
-    margin-left: 30px;
-    margin-top: 30px;
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    overflow-x: scroll;
-    flex-shrink: 0;
-    /* background-color: red; */
-}
-
-.sixone1{
-    width: 50%;
-    height: 90%;
-}
-
-.sixone2{
-    width: 50%;
-    height: 90%;
-}
-
-.sixone3{
-    width: 50%;
-    height: 90%;
-}
-
-.sixone4{
-    width: 50%;
-    height: 90%;
-}
-.sixone5{
-    width: 50%;
-    height: 90%;
-}
-
-.sixone6{
-    width: 50%;
-    height: 90%;
-}
-
-
-.sixone7{
-    width: 50%;
-    height: 90%;
-}
-
-.sixone8{
-    width: 50%;
-    height: 90%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .sixone8 {
+        width: 80%;
+        height: 60%;
+    }
 
     .foot1 {
         flex-direction: column;
