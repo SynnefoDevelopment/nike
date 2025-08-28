@@ -623,6 +623,7 @@
     margin-top: 20px;
     display: flex;
     gap: 30px;
+    flex-shrink: 0;
     overflow-x: scroll;
     /* scrollbar-width: none; */
 }
@@ -634,8 +635,30 @@
     background-image: url(/images/nike-kids\ \(1\).avif);
     background-size: cover;
     background-position: center;
-    flex-shrink: 0;
-    /* background-color: blue; */
+   
+    /* background-c <div class="seventh_img">
+
+        <div class="seventh_h1">
+
+            <h1>Shop By Icons</h1>
+        </div>
+
+        <div class="seventh1">
+
+            <div class="seven1"></div>
+            <div class="seven2"></div>
+            <div class="seven3"></div>
+            <div class="seven4"></div>
+            <div class="seven5"></div>
+            <div class="seven6"></div>
+            <div class="seven2"></div>
+            <div class="seven3"></div>
+            <div class="seven4"></div>
+            <div class="seven5"></div>
+            <div class="seven7"></div>
+
+        </div>
+    </div>olor: blue; */
 
 }
 
@@ -1337,6 +1360,14 @@
 
 @media screen and (min-width:301px) and (max-width:600px) {
 
+    .first {
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+
+
     .second {
         height: 40vh;
         /* background-color: red; */
@@ -1381,6 +1412,9 @@
         /* justify-content: start; */
         /* background-color: red; */
     }
+    .sec_info .new2{
+        margin-left: 20px;
+    }
 
     .third {
         /* height: 86vh; */
@@ -1397,7 +1431,7 @@
         background-size: cover;
         /* display: flex; */
         align-items: end;
-        background-color: red;
+        /* background-color: red; */
         /* background-image: url(/images/nikejust-do-it.avif ); */
     }
 
@@ -1425,9 +1459,12 @@
     .seventh_h1 {
         width: 190px;
     }
-
+.seventh1{
+    width: 97%;
+}
     .seven1 {
         width: 70%;
+
     }
 
     .seven2 {
@@ -1474,13 +1511,12 @@
     }
 
     .six {
-background-color: red;
+        /* background-color: red; */
         height: 60vh;
     }
-
     .six1 {
         width: 70%;
-       
+
 
     }
 
@@ -1493,7 +1529,6 @@ background-color: red;
         gap: 30px;
         overflow-x: scroll;
         flex-shrink: 0;
-
     }
 
     .sixone1 {
