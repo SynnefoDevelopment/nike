@@ -352,11 +352,11 @@
 }
 
 .third_shoes {
-  width: 80%;
+  width: 94%;
   height: 75vh;
   /* background-color: red; */
   display: flex;
-  /* margin-left: 50px; */
+  margin-left: 50px;
   gap: 20px;
   overflow-x: scroll;
 }
@@ -1698,9 +1698,286 @@ width: 580px;
     width: 550px;
     height: 55vh;
     border-bottom: 1px solid rgb(167, 163, 163);
-
-    /* display: none; */
-    /* background-color: green; */
   }
 
 }
+
+
+@media screen and (max-width:700px){
+
+    .nav4{
+width: 750px;
+   /* background-color: red; */
+  }
+
+.nav1 {
+  width: 750px;
+  height: 5vh;
+  display: flex;
+  /* display: none; */
+  justify-content: center;
+  background-color: rgba(244, 239, 239, 0.848);
+}
+
+.mainnav {
+  height: 750px;
+  width: 95%;
+  display: flex;
+}
+
+.mainnav .out{
+  display: none;
+}
+
+.nav3{
+
+width: 750px;
+}
+
+
+.first_section{
+
+  width: 750px;
+}
+
+ .pic1 .time {
+  width: 705px;
+  height: 50vh;
+  object-fit: cover;
+  /* flex-shrink: 0; */
+}
+
+.img1 {
+    width: 330px;
+    height: 50vh;
+    background-image: url(./images/nike-kids.avif);
+    background-size: cover;
+  }
+
+  .img2 {
+  width: 330px;
+  height: 50vh;
+  background-color: rgba(9, 244, 244, 0.925);
+}
+
+.img3{
+
+  display: none;
+}
+
+.p1{
+
+  display: none;
+}
+
+.time p{
+
+  font-size: 17px;
+}
+
+
+.third_shoes {
+  width: 700px;
+  height: 70vh;
+  /* background-color: red; */
+  display: flex;
+  /* margin-left: 50px; */
+  gap: 20px;
+  overflow-x: scroll;
+}
+
+.third_h1{
+
+  width: 50%;
+}
+
+.fourth_section{
+
+  height: 70vh;
+  width: 700px;
+}
+
+.fourth_img {
+  width: 610px;
+  height: 50vh;
+  /* background-color: red; */
+  margin-left: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+
+.fourth1 {
+  width: 560px;
+  height: 50vh;
+  background-image: url(./images/61-\ 6sFB29L._AC_UY900_.jpg);
+  background-size: cover;
+}
+
+.fourth2{
+
+  width: 500px;
+}
+
+.fourth3{
+
+display: none;
+}
+
+  .b2 {
+  width: 90px;
+  height: 30px;
+  background-color: rgb(237, 231, 231);
+  border-radius: 20px;
+  border: none;
+  color: rgb(78, 77, 77);
+  font-size: 12px;
+  margin-top: 80%;
+  margin-left: 10%;
+}
+
+.fourth2 .b2{
+
+  margin-top: 95%;
+}
+
+.fourth2 {
+  width: 470px;
+  height: 50vh;
+  background-image: url(./images/image.avif);
+  background-size: cover;
+}
+
+.fifth_section{
+
+  height: 60vh;
+}
+
+
+.fifth_img {
+  width: 700px;
+  height: 50vh;
+  /* background-color: blue; */
+  margin-left: 40px;
+  display: flex;
+  gap: 20px;
+}
+
+.fifth1 {
+  width: 50%;
+  height: 30vh;
+}
+
+.fifth1 img {
+  width: 80%;
+  height: 30vh;
+}
+
+.fifth1 h1 {
+  font-size: 14px;
+  font-family: arial;
+  font-weight: 100;
+  height: 40px;
+  padding-top: 10px;
+}
+
+.b3 {
+  width: 90px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  font-size: 12px;
+}
+
+.sixth_section{
+
+  width: 700px;
+}
+
+.sixth1 {
+  width: 300px;
+  height: 60vh;
+  background-image: url(./images/image\ \(5\).avif);
+  background-size: cover;
+}
+
+
+
+.sixth1 .set1 {
+  height: 130px;
+  /* background-color: red; */
+  margin-top: 70%;
+
+}
+
+.sixth3{
+
+  display: none;
+}
+
+.sixth2 {
+  width: 300px;
+  height: 60vh;
+  background-image: url(./images/image\ \(6\).avif);
+  background-size: cover;
+}
+
+.sixth2 .set1 {
+  height: 130px;
+  /* background-color: red; */
+  margin-top: 70%;
+
+}
+
+.seventh1 {
+  width: 660px;
+  height: 35vh;
+  /* background-color: red; */
+  margin-left: 30px;
+  margin-top: 20px;
+  display: flex;
+  gap: 25px;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.footer1{
+
+  width: 660px;
+  border-bottom: 1px solid rgb(167, 163, 163);
+}
+
+.foot2 {
+    width: 660px;
+    height: 165vh;
+    /* background-color: blue; */
+    margin-top: 40px;
+    display: block;
+
+    gap: 140px;
+    border-bottom: 1px solid rgb(167, 163, 163);
+    /* display: none; */
+  }
+
+  .part2 {
+    width: 98%;
+    height: 45vh;
+    border-bottom: 1px solid rgb(167, 163, 163);
+
+    /* background-color: green; */
+  }
+
+  .parts3 {
+    width: 660px;
+    height: 55vh;
+    border-bottom: 1px solid rgb(167, 163, 163);
+  }
+
+
+
+  
+}
+
+
